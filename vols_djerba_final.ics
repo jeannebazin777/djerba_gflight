@@ -1,0 +1,2280 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+X-WR-CALNAME:🌴 Djerba (Aller 30j / Retour Vacances) ✈️
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (ALLER)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 119€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 155€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 ORY -> DJE\n🕒 19:15 -> 22:05\n🏢 Tunisair (TU 635)\n
+DTEND:20251213T210500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251213T181500Z
+SUMMARY:🛫 🛄119€ | 🛄🗃️155€ • Tunisair
+UID:2025-12-13-aller@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (ALLER)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 105€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 145€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 CDG -> DJE\n🕒 17:00 -> 19:50\n🏢 Nouvelair Tunisie (BJ 509)\n
+DTEND:20251210T185000Z
+LOCATION:Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
+DTSTART:20251210T160000Z
+SUMMARY:🛫 🛄105€ | 🛄🗃️145€ • Nouvelair Tunisie
+UID:2025-12-10-aller@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 71€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 107€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260731T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260731T060000Z
+SUMMARY:🔙 🛄71€ | 🛄🗃️107€ • Tunisair
+UID:2026-07-31-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 54€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 94€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 11:15 -> 15:15\n🏢 Nouvelair Tunisie (BJ 748)\n
+DTEND:20260705T131500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260705T101500Z
+SUMMARY:🔙 🛄54€ | 🛄🗃️94€ • Nouvelair Tunisie
+UID:2026-07-05-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 71€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 107€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 15:30 -> 18:15\n🏢 Tunisair (TU 634)\n
+DTEND:20260112T171500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260112T143000Z
+SUMMARY:🔙 🛄71€ | 🛄🗃️107€ • Tunisair
+UID:2026-01-12-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 149€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 185€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 20:15 -> 21:15\n🏢 Tunisair Express (UG 11)\n
+DTEND:20260525T191500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260525T191500Z
+SUMMARY:🔙 🛄149€ | 🛄🗃️185€ • Tunisair Express
+UID:2026-05-25-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 104€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 140€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 15:30 -> 18:15\n🏢 Tunisair (TU 634)\n
+DTEND:20251229T171500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20251229T143000Z
+SUMMARY:🔙 🛄104€ | 🛄🗃️140€ • Tunisair
+UID:2025-12-29-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 40€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 80€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 04:00 -> 08:00\n🏢 Nouvelair Tunisie (BJ 702)\n
+DTEND:20260703T060000Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260703T030000Z
+SUMMARY:🔙 🛄40€ | 🛄🗃️80€ • Nouvelair Tunisie
+UID:2026-07-03-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 88€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 124€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 15:30 -> 18:15\n🏢 Tunisair (TU 634)\n
+DTEND:20260110T171500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260110T143000Z
+SUMMARY:🔙 🛄88€ | 🛄🗃️124€ • Tunisair
+UID:2026-01-10-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 104€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 140€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 15:30 -> 18:15\n🏢 Tunisair (TU 634)\n
+DTEND:20260228T171500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260228T143000Z
+SUMMARY:🔙 🛄104€ | 🛄🗃️140€ • Tunisair
+UID:2026-02-28-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 138€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 174€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260523T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260523T060000Z
+SUMMARY:🔙 🛄138€ | 🛄🗃️174€ • Tunisair
+UID:2026-05-23-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 110€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 150€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:15 -> 10:15\n🏢 Nouvelair Tunisie (BJ 554)\n
+DTEND:20251227T091500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20251227T061500Z
+SUMMARY:🔙 🛄110€ | 🛄🗃️150€ • Nouvelair Tunisie
+UID:2025-12-27-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 40€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 80€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 11:00\n🏢 Nouvelair Tunisie (BJ 554)\n
+DTEND:20260701T090000Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260701T060000Z
+SUMMARY:🔙 🛄40€ | 🛄🗃️80€ • Nouvelair Tunisie
+UID:2026-07-01-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 63€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 99€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 09:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260226T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260226T060000Z
+SUMMARY:🔙 🛄63€ | 🛄🗃️99€ • Tunisair
+UID:2026-02-26-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 110€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 150€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 10:00 -> 14:00\n🏢 Nouvelair Tunisie (BJ 508)\n
+DTEND:20260521T120000Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260521T090000Z
+SUMMARY:🔙 🛄110€ | 🛄🗃️150€ • Nouvelair Tunisie
+UID:2026-05-21-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 40€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 80€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 08:30 -> 11:30\n🏢 Nouvelair Tunisie (BJ 508)\n
+DTEND:20251225T103000Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20251225T073000Z
+SUMMARY:🔙 🛄40€ | 🛄🗃️80€ • Nouvelair Tunisie
+UID:2025-12-25-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 68€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 108€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 15:00 -> 18:00\n🏢 Nouvelair Tunisie (BJ 508)\n
+DTEND:20260315T170000Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260315T140000Z
+SUMMARY:🔙 🛄68€ | 🛄🗃️108€ • Nouvelair Tunisie
+UID:2026-03-15-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 63€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 99€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260728T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260728T060000Z
+SUMMARY:🔙 🛄63€ | 🛄🗃️99€ • Tunisair
+UID:2026-07-28-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 104€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 140€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260430T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260430T060000Z
+SUMMARY:🔙 🛄104€ | 🛄🗃️140€ • Tunisair
+UID:2026-04-30-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 88€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 124€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 06:50 -> 09:35\n🏢 Tunisair (TU 634)\n
+DTEND:20260109T083500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260109T055000Z
+SUMMARY:🔙 🛄88€ | 🛄🗃️124€ • Tunisair
+UID:2026-01-09-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 63€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 99€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 15:30 -> 18:15\n🏢 Tunisair (TU 634)\n
+DTEND:20260224T171500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260224T143000Z
+SUMMARY:🔙 🛄63€ | 🛄🗃️99€ • Tunisair
+UID:2026-02-24-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 40€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 80€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 16:00 -> 19:00\n🏢 Nouvelair Tunisie (BJ 508)\n
+DTEND:20251223T180000Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20251223T150000Z
+SUMMARY:🔙 🛄40€ | 🛄🗃️80€ • Nouvelair Tunisie
+UID:2025-12-23-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 138€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 174€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 06:50 -> 09:35\n🏢 Tunisair (TU 634)\n
+DTEND:20260313T083500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260313T055000Z
+SUMMARY:🔙 🛄138€ | 🛄🗃️174€ • Tunisair
+UID:2026-03-13-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 63€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 99€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260726T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260726T060000Z
+SUMMARY:🔙 🛄63€ | 🛄🗃️99€ • Tunisair
+UID:2026-07-26-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 166€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 202€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 20:15 -> 21:15\n🏢 Tunisair Express (UG 11)\n
+DTEND:20260107T201500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260107T191500Z
+SUMMARY:🔙 🛄166€ | 🛄🗃️202€ • Tunisair Express
+UID:2026-01-07-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (ALLER)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 165€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 201€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 ORY -> DJE\n🕒 19:15 -> 22:05\n🏢 Tunisair (TU 635)\n
+DTEND:20251227T210500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251227T181500Z
+SUMMARY:🛫 🛄165€ | 🛄🗃️201€ • Tunisair
+UID:2025-12-27-aller@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 54€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 94€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 15:05 -> 18:05\n🏢 Nouvelair Tunisie (BJ 508)\n
+DTEND:20260222T170500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260222T140500Z
+SUMMARY:🔙 🛄54€ | 🛄🗃️94€ • Nouvelair Tunisie
+UID:2026-02-22-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (ALLER)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 228€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 268€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 CDG -> DJE\n🕒 17:00 -> 19:50\n🏢 Nouvelair Tunisie (BJ 509)\n
+DTEND:20251224T185000Z
+LOCATION:Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
+DTSTART:20251224T160000Z
+SUMMARY:🛫 🛄228€ | 🛄🗃️268€ • Nouvelair Tunisie
+UID:2025-12-24-aller@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 54€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 94€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 15:05 -> 18:05\n🏢 Nouvelair Tunisie (BJ 508)\n
+DTEND:20251221T170500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20251221T140500Z
+SUMMARY:🔙 🛄54€ | 🛄🗃️94€ • Nouvelair Tunisie
+UID:2025-12-21-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 52€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 88€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 06:50 -> 09:35\n🏢 Tunisair (TU 634)\n
+DTEND:20260311T083500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260311T055000Z
+SUMMARY:🔙 🛄52€ | 🛄🗃️88€ • Tunisair
+UID:2026-03-11-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (ALLER)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 209€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 249€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 CDG -> DJE\n🕒 06:50 -> 09:40\n🏢 Nouvelair Tunisie (BJ 555)\n
+DTEND:20251221T084000Z
+LOCATION:Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
+DTSTART:20251221T055000Z
+SUMMARY:🛫 🛄209€ | 🛄🗃️249€ • Nouvelair Tunisie
+UID:2025-12-21-aller@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 88€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 124€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260429T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260429T060000Z
+SUMMARY:🔙 🛄88€ | 🛄🗃️124€ • Tunisair
+UID:2026-04-29-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 63€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 99€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260724T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260724T060000Z
+SUMMARY:🔙 🛄63€ | 🛄🗃️99€ • Tunisair
+UID:2026-07-24-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 228€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 268€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 16:30 -> 19:30\n🏢 Nouvelair Tunisie (BJ 554)\n
+DTEND:20260105T183000Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260105T153000Z
+SUMMARY:🔙 🛄228€ | 🛄🗃️268€ • Nouvelair Tunisie
+UID:2026-01-05-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 71€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 107€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260518T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260518T060000Z
+SUMMARY:🔙 🛄71€ | 🛄🗃️107€ • Tunisair
+UID:2026-05-18-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (ALLER)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 105€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 145€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 CDG -> DJE\n🕒 19:05 -> 21:55\n🏢 Nouvelair Tunisie (BJ 509)\n
+DTEND:20251207T205500Z
+LOCATION:Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
+DTSTART:20251207T180500Z
+SUMMARY:🛫 🛄105€ | 🛄🗃️145€ • Nouvelair Tunisie
+UID:2025-12-07-aller@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 52€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 88€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 06:50 -> 09:35\n🏢 Tunisair (TU 634)\n
+DTEND:20260220T083500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260220T055000Z
+SUMMARY:🔙 🛄52€ | 🛄🗃️88€ • Tunisair
+UID:2026-02-20-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (ALLER)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 123€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 163€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 CDG -> DJE\n🕒 12:30 -> 15:20\n🏢 Nouvelair Tunisie (BJ 509)\n
+DTEND:20251204T142000Z
+LOCATION:Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
+DTSTART:20251204T113000Z
+SUMMARY:🛫 🛄123€ | 🛄🗃️163€ • Nouvelair Tunisie
+UID:2025-12-04-aller@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 63€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 99€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 15:00 -> 18:45\n🏢 Tunisair (TU 654)\n
+DTEND:20260722T164500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260722T140000Z
+SUMMARY:🔙 🛄63€ | 🛄🗃️99€ • Tunisair
+UID:2026-07-22-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 88€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 124€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260427T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260427T060000Z
+SUMMARY:🔙 🛄88€ | 🛄🗃️124€ • Tunisair
+UID:2026-04-27-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 309€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 349€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:15 -> 10:15\n🏢 Nouvelair Tunisie (BJ 554)\n
+DTEND:20260103T091500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260103T061500Z
+SUMMARY:🔙 🛄309€ | 🛄🗃️349€ • Nouvelair Tunisie
+UID:2026-01-03-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 88€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 124€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260516T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260516T060000Z
+SUMMARY:🔙 🛄88€ | 🛄🗃️124€ • Tunisair
+UID:2026-05-16-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 63€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 99€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260720T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260720T060000Z
+SUMMARY:🔙 🛄63€ | 🛄🗃️99€ • Tunisair
+UID:2026-07-20-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 183€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 219€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 20:15 -> 21:15\n🏢 Tunisair Express (UG 11)\n
+DTEND:20260425T191500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260425T191500Z
+SUMMARY:🔙 🛄183€ | 🛄🗃️219€ • Tunisair Express
+UID:2026-04-25-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 228€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 268€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 16:30 -> 19:30\n🏢 Nouvelair Tunisie (BJ 554)\n
+DTEND:20260101T183000Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260101T153000Z
+SUMMARY:🔙 🛄228€ | 🛄🗃️268€ • Nouvelair Tunisie
+UID:2026-01-01-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 40€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 80€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 08:30 -> 11:30\n🏢 Nouvelair Tunisie (BJ 508)\n
+DTEND:20260219T103000Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260219T073000Z
+SUMMARY:🔙 🛄40€ | 🛄🗃️80€ • Nouvelair Tunisie
+UID:2026-02-19-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 71€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 107€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 15:00 -> 18:45\n🏢 Tunisair (TU 654)\n
+DTEND:20260514T164500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260514T140000Z
+SUMMARY:🔙 🛄71€ | 🛄🗃️107€ • Tunisair
+UID:2026-05-14-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 54€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 94€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 08:30 -> 11:30\n🏢 Nouvelair Tunisie (BJ 508)\n
+DTEND:20251218T103000Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20251218T073000Z
+SUMMARY:🔙 🛄54€ | 🛄🗃️94€ • Nouvelair Tunisie
+UID:2025-12-18-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 142€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 178€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 20:15 -> 21:15\n🏢 Tunisair Express (UG 11)\n
+DTEND:20260308T201500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260308T191500Z
+SUMMARY:🔙 🛄142€ | 🛄🗃️178€ • Tunisair Express
+UID:2026-03-08-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 71€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 107€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260423T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260423T060000Z
+SUMMARY:🔙 🛄71€ | 🛄🗃️107€ • Tunisair
+UID:2026-04-23-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 52€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 88€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 15:30 -> 18:15\n🏢 Tunisair (TU 634)\n
+DTEND:20260217T171500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260217T143000Z
+SUMMARY:🔙 🛄52€ | 🛄🗃️88€ • Tunisair
+UID:2026-02-17-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 71€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 107€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260512T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260512T060000Z
+SUMMARY:🔙 🛄71€ | 🛄🗃️107€ • Tunisair
+UID:2026-05-12-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 63€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 99€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 15:30 -> 18:15\n🏢 Tunisair (TU 634)\n
+DTEND:20251216T171500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20251216T143000Z
+SUMMARY:🔙 🛄63€ | 🛄🗃️99€ • Tunisair
+UID:2025-12-16-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 152€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 188€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 06:50 -> 09:35\n🏢 Tunisair (TU 634)\n
+DTEND:20260306T083500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260306T055000Z
+SUMMARY:🔙 🛄152€ | 🛄🗃️188€ • Tunisair
+UID:2026-03-06-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 63€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 99€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260719T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260719T060000Z
+SUMMARY:🔙 🛄63€ | 🛄🗃️99€ • Tunisair
+UID:2026-07-19-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 88€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 124€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260421T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260421T060000Z
+SUMMARY:🔙 🛄88€ | 🛄🗃️124€ • Tunisair
+UID:2026-04-21-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 40€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 80€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 15:00 -> 18:00\n🏢 Nouvelair Tunisie (BJ 508)\n
+DTEND:20260215T170000Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260215T140000Z
+SUMMARY:🔙 🛄40€ | 🛄🗃️80€ • Nouvelair Tunisie
+UID:2026-02-15-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 88€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 124€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260510T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260510T060000Z
+SUMMARY:🔙 🛄88€ | 🛄🗃️124€ • Tunisair
+UID:2026-05-10-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 54€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 94€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 11:15 -> 15:15\n🏢 Nouvelair Tunisie (BJ 748)\n
+DTEND:20260628T131500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260628T101500Z
+SUMMARY:🔙 🛄54€ | 🛄🗃️94€ • Nouvelair Tunisie
+UID:2026-06-28-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 54€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 94€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 15:05 -> 18:05\n🏢 Nouvelair Tunisie (BJ 508)\n
+DTEND:20251214T170500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20251214T140500Z
+SUMMARY:🔙 🛄54€ | 🛄🗃️94€ • Nouvelair Tunisie
+UID:2025-12-14-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 88€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 124€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 06:50 -> 09:35\n🏢 Tunisair (TU 634)\n
+DTEND:20260304T083500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260304T055000Z
+SUMMARY:🔙 🛄88€ | 🛄🗃️124€ • Tunisair
+UID:2026-03-04-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 63€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 99€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260717T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260717T060000Z
+SUMMARY:🔙 🛄63€ | 🛄🗃️99€ • Tunisair
+UID:2026-07-17-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (ALLER)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 209€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 249€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 CDG -> DJE\n🕒 12:30 -> 15:20\n🏢 Nouvelair Tunisie (BJ 509)\n
+DTEND:20251218T142000Z
+LOCATION:Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
+DTSTART:20251218T113000Z
+SUMMARY:🛫 🛄209€ | 🛄🗃️249€ • Nouvelair Tunisie
+UID:2025-12-18-aller@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (ALLER)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 165€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 201€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 ORY -> DJE\n🕒 19:15 -> 22:05\n🏢 Tunisair (TU 635)\n
+DTEND:20251215T210500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251215T181500Z
+SUMMARY:🛫 🛄165€ | 🛄🗃️201€ • Tunisair
+UID:2025-12-15-aller@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 88€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 124€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 15:30 -> 18:15\n🏢 Tunisair (TU 634)\n
+DTEND:20260302T171500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260302T143000Z
+SUMMARY:🔙 🛄88€ | 🛄🗃️124€ • Tunisair
+UID:2026-03-02-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 63€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 99€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 15:00 -> 18:45\n🏢 Tunisair (TU 654)\n
+DTEND:20260715T164500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260715T140000Z
+SUMMARY:🔙 🛄63€ | 🛄🗃️99€ • Tunisair
+UID:2026-07-15-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (ALLER)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 114€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 154€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 CDG -> DJE\n🕒 19:00 -> 21:50\n🏢 Nouvelair Tunisie (BJ 509)\n
+DTEND:20251212T205000Z
+LOCATION:Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
+DTSTART:20251212T180000Z
+SUMMARY:🛫 🛄114€ | 🛄🗃️154€ • Nouvelair Tunisie
+UID:2025-12-12-aller@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 71€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 107€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260509T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260509T060000Z
+SUMMARY:🔙 🛄71€ | 🛄🗃️107€ • Tunisair
+UID:2026-05-09-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 63€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 99€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260713T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260713T060000Z
+SUMMARY:🔙 🛄63€ | 🛄🗃️99€ • Tunisair
+UID:2026-07-13-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 141€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 177€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 20:15 -> 21:15\n🏢 Tunisair Express (UG 11)\n
+DTEND:20260418T191500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260418T191500Z
+SUMMARY:🔙 🛄141€ | 🛄🗃️177€ • Tunisair Express
+UID:2026-04-18-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (ALLER)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 105€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 145€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 CDG -> DJE\n🕒 19:00 -> 21:50\n🏢 Nouvelair Tunisie (BJ 509)\n
+DTEND:20260102T205000Z
+LOCATION:Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
+DTSTART:20260102T180000Z
+SUMMARY:🛫 🛄105€ | 🛄🗃️145€ • Nouvelair Tunisie
+UID:2026-01-02-aller@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 152€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 188€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 15:00 -> 18:45\n🏢 Tunisair (TU 654)\n
+DTEND:20260802T164500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260802T140000Z
+SUMMARY:🔙 🛄152€ | 🛄🗃️188€ • Tunisair
+UID:2026-08-02-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 52€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 88€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 15:00 -> 18:45\n🏢 Tunisair (TU 654)\n
+DTEND:20260507T164500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260507T140000Z
+SUMMARY:🔙 🛄52€ | 🛄🗃️88€ • Tunisair
+UID:2026-05-07-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 63€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 99€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260711T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260711T060000Z
+SUMMARY:🔙 🛄63€ | 🛄🗃️99€ • Tunisair
+UID:2026-07-11-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 63€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 99€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 15:00 -> 18:45\n🏢 Tunisair (TU 654)\n
+DTEND:20260416T164500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260416T140000Z
+SUMMARY:🔙 🛄63€ | 🛄🗃️99€ • Tunisair
+UID:2026-04-16-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 52€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 88€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260505T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260505T060000Z
+SUMMARY:🔙 🛄52€ | 🛄🗃️88€ • Tunisair
+UID:2026-05-05-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 52€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 88€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260414T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260414T060000Z
+SUMMARY:🔙 🛄52€ | 🛄🗃️88€ • Tunisair
+UID:2026-04-14-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 142€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 178€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 20:15 -> 21:15\n🏢 Tunisair Express (UG 11)\n
+DTEND:20260503T191500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260503T191500Z
+SUMMARY:🔙 🛄142€ | 🛄🗃️178€ • Tunisair Express
+UID:2026-05-03-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 52€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 88€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260412T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260412T060000Z
+SUMMARY:🔙 🛄52€ | 🛄🗃️88€ • Tunisair
+UID:2026-04-12-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 204€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 244€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 13:00 -> 16:00\n🏢 Nouvelair Tunisie (BJ 508)\n
+DTEND:20251231T150000Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20251231T120000Z
+SUMMARY:🔙 🛄204€ | 🛄🗃️244€ • Nouvelair Tunisie
+UID:2025-12-31-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 123€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 159€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260501T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260501T060000Z
+SUMMARY:🔙 🛄123€ | 🛄🗃️159€ • Tunisair
+UID:2026-05-01-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (ALLER)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 165€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 201€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 ORY -> DJE\n🕒 19:15 -> 22:05\n🏢 Tunisair (TU 635)\n
+DTEND:20251229T210500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251229T181500Z
+SUMMARY:🛫 🛄165€ | 🛄🗃️201€ • Tunisair
+UID:2025-12-29-aller@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 40€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 80€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 11:00\n🏢 Nouvelair Tunisie (BJ 554)\n
+DTEND:20260708T090000Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260708T060000Z
+SUMMARY:🔙 🛄40€ | 🛄🗃️80€ • Nouvelair Tunisie
+UID:2026-07-08-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (ALLER)\n----------------------------------\n⚠️ ATTENTION TRANSAVIA (Prix ajustés) :\n❌ Base Google (232€) = Sac à dos (0kg)\n🛄 OPTION CABINE (Tarif Smart) : 280€\n   ⚖️ TOTAL : 10 KG\n🛄🗃️ OPTION LOURDE (Tarif Max) : 337€\n   ⚖️ TOTAL CUMULÉ : 40 KG !!! (30kg soute)\n----------------------------------\n📍 ORY -> DJE\n🕒 08:00 -> 10:55\n🏢 Transavia (TO 8392)\n
+DTEND:20251226T095500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251226T070000Z
+SUMMARY:🛫 🛄280€ | 🛄🗃️337€ • Transavia
+UID:2025-12-26-aller@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (ALLER)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 190€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 230€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 CDG -> DJE\n🕒 12:00 -> 14:50\n🏢 Nouvelair Tunisie (BJ 555)\n
+DTEND:20251223T135000Z
+LOCATION:Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
+DTSTART:20251223T110000Z
+SUMMARY:🛫 🛄190€ | 🛄🗃️230€ • Nouvelair Tunisie
+UID:2025-12-23-aller@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (ALLER)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 247€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 287€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 CDG -> DJE\n🕒 16:15 -> 19:05\n🏢 Nouvelair Tunisie (BJ 703)\n
+DTEND:20251220T180500Z
+LOCATION:Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
+DTSTART:20251220T151500Z
+SUMMARY:🛫 🛄247€ | 🛄🗃️287€ • Nouvelair Tunisie
+UID:2025-12-20-aller@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (ALLER)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 119€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 155€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 ORY -> DJE\n🕒 19:15 -> 22:05\n🏢 Tunisair (TU 635)\n
+DTEND:20251209T210500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251209T181500Z
+SUMMARY:🛫 🛄119€ | 🛄🗃️155€ • Tunisair
+UID:2025-12-09-aller@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 40€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 80€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 11:00\n🏢 Nouvelair Tunisie (BJ 554)\n
+DTEND:20260706T090000Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260706T060000Z
+SUMMARY:🔙 🛄40€ | 🛄🗃️80€ • Nouvelair Tunisie
+UID:2026-07-06-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (ALLER)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 104€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 140€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 ORY -> DJE\n🕒 19:15 -> 22:05\n🏢 Tunisair (TU 635)\n
+DTEND:20251206T210500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251206T181500Z
+SUMMARY:🛫 🛄104€ | 🛄🗃️140€ • Tunisair
+UID:2025-12-06-aller@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 71€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 107€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260730T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260730T060000Z
+SUMMARY:🔙 🛄71€ | 🛄🗃️107€ • Tunisair
+UID:2026-07-30-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 54€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 94€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 04:00 -> 08:00\n🏢 Nouvelair Tunisie (BJ 702)\n
+DTEND:20260704T060000Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260704T030000Z
+SUMMARY:🔙 🛄54€ | 🛄🗃️94€ • Nouvelair Tunisie
+UID:2026-07-04-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 71€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 107€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 06:50 -> 09:35\n🏢 Tunisair (TU 634)\n
+DTEND:20260111T083500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260111T055000Z
+SUMMARY:🔙 🛄71€ | 🛄🗃️107€ • Tunisair
+UID:2026-01-11-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 138€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 174€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 15:00 -> 18:45\n🏢 Tunisair (TU 654)\n
+DTEND:20260524T164500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260524T140000Z
+SUMMARY:🔙 🛄138€ | 🛄🗃️174€ • Tunisair
+UID:2026-05-24-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 104€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 140€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 06:50 -> 09:35\n🏢 Tunisair (TU 634)\n
+DTEND:20251228T083500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20251228T055000Z
+SUMMARY:🔙 🛄104€ | 🛄🗃️140€ • Tunisair
+UID:2025-12-28-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 40€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 80€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 09:15 -> 13:15\n🏢 Nouvelair Tunisie (BJ 554)\n
+DTEND:20260702T111500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260702T081500Z
+SUMMARY:🔙 🛄40€ | 🛄🗃️80€ • Nouvelair Tunisie
+UID:2026-07-02-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 110€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 150€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 15:00 -> 19:00\n🏢 Nouvelair Tunisie (BJ 508)\n
+DTEND:20260522T170000Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260522T140000Z
+SUMMARY:🔙 🛄110€ | 🛄🗃️150€ • Nouvelair Tunisie
+UID:2026-05-22-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 52€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 88€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 06:50 -> 09:35\n🏢 Tunisair (TU 634)\n
+DTEND:20260227T083500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260227T055000Z
+SUMMARY:🔙 🛄52€ | 🛄🗃️88€ • Tunisair
+UID:2026-02-27-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 88€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 124€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 06:50 -> 09:35\n🏢 Tunisair (TU 634)\n
+DTEND:20251226T083500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20251226T055000Z
+SUMMARY:🔙 🛄88€ | 🛄🗃️124€ • Tunisair
+UID:2025-12-26-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 54€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 94€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 08:30 -> 11:30\n🏢 Nouvelair Tunisie (BJ 508)\n
+DTEND:20260316T103000Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260316T073000Z
+SUMMARY:🔙 🛄54€ | 🛄🗃️94€ • Nouvelair Tunisie
+UID:2026-03-16-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 63€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 99€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260729T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260729T060000Z
+SUMMARY:🔙 🛄63€ | 🛄🗃️99€ • Tunisair
+UID:2026-07-29-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 52€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 88€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260520T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260520T060000Z
+SUMMARY:🔙 🛄52€ | 🛄🗃️88€ • Tunisair
+UID:2026-05-20-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 63€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 99€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 06:50 -> 09:35\n🏢 Tunisair (TU 634)\n
+DTEND:20260225T083500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260225T055000Z
+SUMMARY:🔙 🛄63€ | 🛄🗃️99€ • Tunisair
+UID:2026-02-25-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 71€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 107€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 06:50 -> 09:35\n🏢 Tunisair (TU 634)\n
+DTEND:20251224T083500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20251224T055000Z
+SUMMARY:🔙 🛄71€ | 🛄🗃️107€ • Tunisair
+UID:2025-12-24-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 68€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 108€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 15:30 -> 18:30\n🏢 Nouvelair Tunisie (BJ 508)\n
+DTEND:20260314T173000Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260314T143000Z
+SUMMARY:🔙 🛄68€ | 🛄🗃️108€ • Nouvelair Tunisie
+UID:2026-03-14-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 63€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 99€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260727T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260727T060000Z
+SUMMARY:🔙 🛄63€ | 🛄🗃️99€ • Tunisair
+UID:2026-07-27-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 104€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 140€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 09:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260108T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260108T060000Z
+SUMMARY:🔙 🛄104€ | 🛄🗃️140€ • Tunisair
+UID:2026-01-08-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 52€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 88€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 15:30 -> 18:15\n🏢 Tunisair (TU 634)\n
+DTEND:20260223T171500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260223T143000Z
+SUMMARY:🔙 🛄52€ | 🛄🗃️88€ • Tunisair
+UID:2026-02-23-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 54€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 94€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 08:30 -> 11:30\n🏢 Nouvelair Tunisie (BJ 508)\n
+DTEND:20251222T103000Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20251222T073000Z
+SUMMARY:🔙 🛄54€ | 🛄🗃️94€ • Nouvelair Tunisie
+UID:2025-12-22-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (ALLER)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 123€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 163€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 CDG -> DJE\n🕒 17:00 -> 19:50\n🏢 Nouvelair Tunisie (BJ 509)\n
+DTEND:20251231T185000Z
+LOCATION:Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
+DTSTART:20251231T160000Z
+SUMMARY:🛫 🛄123€ | 🛄🗃️163€ • Nouvelair Tunisie
+UID:2025-12-31-aller@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 63€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 99€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 09:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260312T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260312T060000Z
+SUMMARY:🔙 🛄63€ | 🛄🗃️99€ • Tunisair
+UID:2026-03-12-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 63€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 99€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260725T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260725T060000Z
+SUMMARY:🔙 🛄63€ | 🛄🗃️99€ • Tunisair
+UID:2026-07-25-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 184€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 220€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 20:15 -> 21:15\n🏢 Tunisair Express (UG 11)\n
+DTEND:20260106T201500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260106T191500Z
+SUMMARY:🔙 🛄184€ | 🛄🗃️220€ • Tunisair Express
+UID:2026-01-06-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 52€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 88€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260519T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260519T060000Z
+SUMMARY:🔙 🛄52€ | 🛄🗃️88€ • Tunisair
+UID:2026-05-19-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (ALLER)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 205€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 241€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 ORY -> DJE\n🕒 10:35 -> 13:25\n🏢 Tunisair (TU 635)\n
+DTEND:20251217T122500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251217T093500Z
+SUMMARY:🛫 🛄205€ | 🛄🗃️241€ • Tunisair
+UID:2025-12-17-aller@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 52€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 88€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 15:30 -> 18:15\n🏢 Tunisair (TU 634)\n
+DTEND:20260221T171500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260221T143000Z
+SUMMARY:🔙 🛄52€ | 🛄🗃️88€ • Tunisair
+UID:2026-02-21-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (ALLER)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 129€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 165€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 ORY -> DJE\n🕒 10:35 -> 13:25\n🏢 Tunisair (TU 635)\n
+DTEND:20251214T122500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251214T093500Z
+SUMMARY:🛫 🛄129€ | 🛄🗃️165€ • Tunisair
+UID:2025-12-14-aller@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 54€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 94€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 15:30 -> 18:30\n🏢 Nouvelair Tunisie (BJ 508)\n
+DTEND:20251220T173000Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20251220T143000Z
+SUMMARY:🔙 🛄54€ | 🛄🗃️94€ • Nouvelair Tunisie
+UID:2025-12-20-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (ALLER)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 123€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 163€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 CDG -> DJE\n🕒 12:30 -> 15:20\n🏢 Nouvelair Tunisie (BJ 509)\n
+DTEND:20251211T142000Z
+LOCATION:Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
+DTSTART:20251211T113000Z
+SUMMARY:🛫 🛄123€ | 🛄🗃️163€ • Nouvelair Tunisie
+UID:2025-12-11-aller@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 88€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 124€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 15:30 -> 18:15\n🏢 Tunisair (TU 634)\n
+DTEND:20260310T171500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260310T143000Z
+SUMMARY:🔙 🛄88€ | 🛄🗃️124€ • Tunisair
+UID:2026-03-10-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 71€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 107€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260428T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260428T060000Z
+SUMMARY:🔙 🛄71€ | 🛄🗃️107€ • Tunisair
+UID:2026-04-28-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 63€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 99€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260723T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260723T060000Z
+SUMMARY:🔙 🛄63€ | 🛄🗃️99€ • Tunisair
+UID:2026-07-23-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 291€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 327€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 20:15 -> 21:15\n🏢 Tunisair Express (UG 11)\n
+DTEND:20260104T201500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260104T191500Z
+SUMMARY:🔙 🛄291€ | 🛄🗃️327€ • Tunisair Express
+UID:2026-01-04-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 123€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 159€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260517T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260517T060000Z
+SUMMARY:🔙 🛄123€ | 🛄🗃️159€ • Tunisair
+UID:2026-05-17-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (ALLER)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 105€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 145€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 CDG -> DJE\n🕒 12:30 -> 15:20\n🏢 Nouvelair Tunisie (BJ 509)\n
+DTEND:20260101T142000Z
+LOCATION:Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
+DTSTART:20260101T113000Z
+SUMMARY:🛫 🛄105€ | 🛄🗃️145€ • Nouvelair Tunisie
+UID:2026-01-01-aller@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 141€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 177€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 20:15 -> 21:15\n🏢 Tunisair Express (UG 11)\n
+DTEND:20260426T191500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260426T191500Z
+SUMMARY:🔙 🛄141€ | 🛄🗃️177€ • Tunisair Express
+UID:2026-04-26-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 63€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 99€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260721T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260721T060000Z
+SUMMARY:🔙 🛄63€ | 🛄🗃️99€ • Tunisair
+UID:2026-07-21-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 266€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 302€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 06:50 -> 09:35\n🏢 Tunisair (TU 634)\n
+DTEND:20260102T083500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260102T055000Z
+SUMMARY:🔙 🛄266€ | 🛄🗃️302€ • Tunisair
+UID:2026-01-02-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 71€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 107€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260515T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260515T060000Z
+SUMMARY:🔙 🛄71€ | 🛄🗃️107€ • Tunisair
+UID:2026-05-15-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 63€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 99€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 06:50 -> 09:35\n🏢 Tunisair (TU 634)\n
+DTEND:20251219T083500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20251219T055000Z
+SUMMARY:🔙 🛄63€ | 🛄🗃️99€ • Tunisair
+UID:2025-12-19-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 40€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 80€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 11:00 -> 15:00\n🏢 Nouvelair Tunisie (BJ 554)\n
+DTEND:20260630T130000Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260630T100000Z
+SUMMARY:🔙 🛄40€ | 🛄🗃️80€ • Nouvelair Tunisie
+UID:2026-06-30-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 138€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 174€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 15:30 -> 18:15\n🏢 Tunisair (TU 634)\n
+DTEND:20260309T171500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260309T143000Z
+SUMMARY:🔙 🛄138€ | 🛄🗃️174€ • Tunisair
+UID:2026-03-09-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 152€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 188€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260424T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260424T060000Z
+SUMMARY:🔙 🛄152€ | 🛄🗃️188€ • Tunisair
+UID:2026-04-24-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 71€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 107€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260513T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260513T060000Z
+SUMMARY:🔙 🛄71€ | 🛄🗃️107€ • Tunisair
+UID:2026-05-13-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 40€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 80€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 13:00 -> 16:00\n🏢 Nouvelair Tunisie (BJ 508)\n
+DTEND:20260218T150000Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260218T120000Z
+SUMMARY:🔙 🛄40€ | 🛄🗃️80€ • Nouvelair Tunisie
+UID:2026-02-18-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 63€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 99€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 06:50 -> 09:35\n🏢 Tunisair (TU 634)\n
+DTEND:20251217T083500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20251217T055000Z
+SUMMARY:🔙 🛄63€ | 🛄🗃️99€ • Tunisair
+UID:2025-12-17-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 167€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 203€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 20:15 -> 21:15\n🏢 Tunisair Express (UG 11)\n
+DTEND:20260307T201500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260307T191500Z
+SUMMARY:🔙 🛄167€ | 🛄🗃️203€ • Tunisair Express
+UID:2026-03-07-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 88€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 124€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260422T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260422T060000Z
+SUMMARY:🔙 🛄88€ | 🛄🗃️124€ • Tunisair
+UID:2026-04-22-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 88€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 124€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260511T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260511T060000Z
+SUMMARY:🔙 🛄88€ | 🛄🗃️124€ • Tunisair
+UID:2026-05-11-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 40€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 80€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 08:30 -> 11:30\n🏢 Nouvelair Tunisie (BJ 508)\n
+DTEND:20260216T103000Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260216T073000Z
+SUMMARY:🔙 🛄40€ | 🛄🗃️80€ • Nouvelair Tunisie
+UID:2026-02-16-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 40€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 80€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 11:00\n🏢 Nouvelair Tunisie (BJ 554)\n
+DTEND:20260629T090000Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260629T060000Z
+SUMMARY:🔙 🛄40€ | 🛄🗃️80€ • Nouvelair Tunisie
+UID:2026-06-29-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 54€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 94€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 08:30 -> 11:30\n🏢 Nouvelair Tunisie (BJ 508)\n
+DTEND:20251215T103000Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20251215T073000Z
+SUMMARY:🔙 🛄54€ | 🛄🗃️94€ • Nouvelair Tunisie
+UID:2025-12-15-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 123€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 159€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 09:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260305T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260305T060000Z
+SUMMARY:🔙 🛄123€ | 🛄🗃️159€ • Tunisair
+UID:2026-03-05-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 63€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 99€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260718T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260718T060000Z
+SUMMARY:🔙 🛄63€ | 🛄🗃️99€ • Tunisair
+UID:2026-07-18-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 104€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 140€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260420T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260420T060000Z
+SUMMARY:🔙 🛄104€ | 🛄🗃️140€ • Tunisair
+UID:2026-04-20-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 40€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 80€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 15:30 -> 18:30\n🏢 Nouvelair Tunisie (BJ 508)\n
+DTEND:20260214T173000Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260214T143000Z
+SUMMARY:🔙 🛄40€ | 🛄🗃️80€ • Nouvelair Tunisie
+UID:2026-02-14-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 54€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 94€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 04:00 -> 08:00\n🏢 Nouvelair Tunisie (BJ 702)\n
+DTEND:20260627T060000Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260627T030000Z
+SUMMARY:🔙 🛄54€ | 🛄🗃️94€ • Nouvelair Tunisie
+UID:2026-06-27-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (ALLER)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 165€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 201€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 ORY -> DJE\n🕒 10:35 -> 13:25\n🏢 Tunisair (TU 635)\n
+DTEND:20251228T122500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251228T093500Z
+SUMMARY:🛫 🛄165€ | 🛄🗃️201€ • Tunisair
+UID:2025-12-28-aller@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 54€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 94€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 15:30 -> 18:30\n🏢 Nouvelair Tunisie (BJ 508)\n
+DTEND:20251213T173000Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20251213T143000Z
+SUMMARY:🔙 🛄54€ | 🛄🗃️94€ • Nouvelair Tunisie
+UID:2025-12-13-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (ALLER)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 239€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 275€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 ORY -> DJE\n🕒 10:35 -> 13:25\n🏢 Tunisair (TU 635)\n
+DTEND:20251225T122500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251225T093500Z
+SUMMARY:🛫 🛄239€ | 🛄🗃️275€ • Tunisair
+UID:2025-12-25-aller@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 63€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 99€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 15:30 -> 18:15\n🏢 Tunisair (TU 634)\n
+DTEND:20260303T171500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260303T143000Z
+SUMMARY:🔙 🛄63€ | 🛄🗃️99€ • Tunisair
+UID:2026-03-03-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 63€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 99€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 15:00 -> 18:45\n🏢 Tunisair (TU 654)\n
+DTEND:20260716T164500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260716T140000Z
+SUMMARY:🔙 🛄63€ | 🛄🗃️99€ • Tunisair
+UID:2026-07-16-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (ALLER)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 209€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 249€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 CDG -> DJE\n🕒 12:30 -> 15:20\n🏢 Nouvelair Tunisie (BJ 509)\n
+DTEND:20251222T142000Z
+LOCATION:Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
+DTSTART:20251222T113000Z
+SUMMARY:🛫 🛄209€ | 🛄🗃️249€ • Nouvelair Tunisie
+UID:2025-12-22-aller@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (ALLER)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 114€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 154€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 CDG -> DJE\n🕒 12:30 -> 15:20\n🏢 Nouvelair Tunisie (BJ 509)\n
+DTEND:20251208T142000Z
+LOCATION:Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
+DTSTART:20251208T113000Z
+SUMMARY:🛫 🛄114€ | 🛄🗃️154€ • Nouvelair Tunisie
+UID:2025-12-08-aller@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (ALLER)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 114€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 154€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 CDG -> DJE\n🕒 19:00 -> 21:50\n🏢 Nouvelair Tunisie (BJ 509)\n
+DTEND:20251205T205000Z
+LOCATION:Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
+DTSTART:20251205T180000Z
+SUMMARY:🛫 🛄114€ | 🛄🗃️154€ • Nouvelair Tunisie
+UID:2025-12-05-aller@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 123€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 159€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 06:50 -> 09:35\n🏢 Tunisair (TU 634)\n
+DTEND:20260301T083500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260301T055000Z
+SUMMARY:🔙 🛄123€ | 🛄🗃️159€ • Tunisair
+UID:2026-03-01-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 141€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 177€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 08:45 -> 09:45\n🏢 Tunisair Express (UG 3)\n
+DTEND:20260419T074500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260419T074500Z
+SUMMARY:🔙 🛄141€ | 🛄🗃️177€ • Tunisair Express
+UID:2026-04-19-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 63€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 99€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260714T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260714T060000Z
+SUMMARY:🔙 🛄63€ | 🛄🗃️99€ • Tunisair
+UID:2026-07-14-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 63€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 99€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260508T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260508T060000Z
+SUMMARY:🔙 🛄63€ | 🛄🗃️99€ • Tunisair
+UID:2026-05-08-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 173€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 209€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 15:00 -> 18:45\n🏢 Tunisair (TU 654)\n
+DTEND:20260803T164500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260803T140000Z
+SUMMARY:🔙 🛄173€ | 🛄🗃️209€ • Tunisair
+UID:2026-08-03-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 71€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 107€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260417T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260417T060000Z
+SUMMARY:🔙 🛄71€ | 🛄🗃️107€ • Tunisair
+UID:2026-04-17-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 63€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 99€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260712T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260712T060000Z
+SUMMARY:🔙 🛄63€ | 🛄🗃️99€ • Tunisair
+UID:2026-07-12-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 71€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 107€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260506T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260506T060000Z
+SUMMARY:🔙 🛄71€ | 🛄🗃️107€ • Tunisair
+UID:2026-05-06-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 138€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 174€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 15:00 -> 18:45\n🏢 Tunisair (TU 654)\n
+DTEND:20260801T164500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260801T140000Z
+SUMMARY:🔙 🛄138€ | 🛄🗃️174€ • Tunisair
+UID:2026-08-01-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 52€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 88€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260415T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260415T060000Z
+SUMMARY:🔙 🛄52€ | 🛄🗃️88€ • Tunisair
+UID:2026-04-15-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 63€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 99€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 15:00 -> 18:45\n🏢 Tunisair (TU 654)\n
+DTEND:20260710T164500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260710T140000Z
+SUMMARY:🔙 🛄63€ | 🛄🗃️99€ • Tunisair
+UID:2026-07-10-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 123€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 159€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260504T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260504T060000Z
+SUMMARY:🔙 🛄123€ | 🛄🗃️159€ • Tunisair
+UID:2026-05-04-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 52€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 88€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260413T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260413T060000Z
+SUMMARY:🔙 🛄52€ | 🛄🗃️88€ • Tunisair
+UID:2026-04-13-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 104€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 140€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260502T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260502T060000Z
+SUMMARY:🔙 🛄104€ | 🛄🗃️140€ • Tunisair
+UID:2026-05-02-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 63€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 99€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 15:00 -> 18:45\n🏢 Tunisair (TU 654)\n
+DTEND:20260709T164500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260709T140000Z
+SUMMARY:🔙 🛄63€ | 🛄🗃️99€ • Tunisair
+UID:2026-07-09-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 52€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 88€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 07:00 -> 10:45\n🏢 Tunisair (TU 634)\n
+DTEND:20260411T084500Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260411T060000Z
+SUMMARY:🔙 🛄52€ | 🛄🗃️88€ • Tunisair
+UID:2026-04-11-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 164€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 204€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 16:00 -> 19:00\n🏢 Nouvelair Tunisie (BJ 508)\n
+DTEND:20251230T180000Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20251230T150000Z
+SUMMARY:🔙 🛄164€ | 🛄🗃️204€ • Nouvelair Tunisie
+UID:2025-12-30-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (ALLER)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 165€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 201€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 ORY -> DJE\n🕒 19:15 -> 22:05\n🏢 Tunisair (TU 635)\n
+DTEND:20251230T210500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251230T181500Z
+SUMMARY:🛫 🛄165€ | 🛄🗃️201€ • Tunisair
+UID:2025-12-30-aller@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (ALLER)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 205€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 241€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 ORY -> DJE\n🕒 10:35 -> 13:25\n🏢 Tunisair (TU 635)\n
+DTEND:20251219T122500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251219T093500Z
+SUMMARY:🛫 🛄205€ | 🛄🗃️241€ • Tunisair
+UID:2025-12-19-aller@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (RETOUR)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 40€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 80€\n   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)\n----------------------------------\n📍 Djerba -> Paris\n🕒 15:00 -> 19:00\n🏢 Nouvelair Tunisie (BJ 508)\n
+DTEND:20260707T170000Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260707T140000Z
+SUMMARY:🔙 🛄40€ | 🛄🗃️80€ • Nouvelair Tunisie
+UID:2026-07-07-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:🏆 PRIX & POIDS (ALLER)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 205€\n   ⚖️ TOTAL : 8 KG\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 241€\n   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)\n----------------------------------\n📍 ORY -> DJE\n🕒 19:15 -> 22:05\n🏢 Tunisair (TU 635)\n
+DTEND:20251216T210500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251216T181500Z
+SUMMARY:🛫 🛄205€ | 🛄🗃️241€ • Tunisair
+UID:2025-12-16-aller@allofly
+END:VEVENT
+END:VCALENDAR
