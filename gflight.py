@@ -16,7 +16,7 @@ except ImportError:
 
 CALENDAR_NAME = "🌴 Djerba Tracker (Kilos Cumulés) ✈️"
 
-API_KEY = "52a391eccbmsh9df81d221e7ee66p138217jsnde1e036469c9"
+API_KEY = "d63d9c3353mshba1a97be0e24b1dp15148ajsn4d780c446e3a"
 HOST = "google-flights2.p.rapidapi.com"
 URL = f"https://{HOST}/api/v1/searchFlights"
 
