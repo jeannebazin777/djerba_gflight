@@ -4,7 +4,7 @@ import sys
 from datetime import datetime, timedelta
 from ics import Calendar, Event, DisplayAlarm
 
-# --- GESTION ROBUSTE DES TIMEZONES ---
+# --- GESTION TIMEZONES ---
 try:
     from zoneinfo import ZoneInfo
 except ImportError:
@@ -14,19 +14,16 @@ except ImportError:
 # 1. CONFIGURATION
 # ==========================================
 
-CALENDAR_NAME = "🌴 Djerba Tracker (Kilos Cumulés) ✈️"
+CALENDAR_NAME = "🌴 Djerba (Aller 30j / Retour Vacances) ✈️"
 
-API_KEY = "d63d9c3353mshba1a97be0e24b1dp15148ajsn4d780c446e3a"
+# CLÉ 1 : Pour l'ALLER (30 jours glissants)
+API_KEY_ALLER = "8f656f24dbmsh228d41d26feed1ap158855jsnfde628f67f3e"
+
+# CLÉ 2 : Pour le RETOUR (Vacances Zone C)
+API_KEY_RETOUR = "5b83e86395msh225156d28d5f64bp1b703djsn6d5742f3048a"
+
 HOST = "google-flights2.p.rapidapi.com"
 URL = f"https://{HOST}/api/v1/searchFlights"
-
-HEADERS = {
-    "x-rapidapi-key": API_KEY,
-    "x-rapidapi-host": HOST
-}
-
-MOIS_ETE = [7, 8]
-DUREE_VACANCES_ETE = 14  
 
 GPS_ADDRESSES = {
     "ORY": "Aéroport de Paris-Orly (ORY), 94390 Orly, France",
@@ -41,107 +38,128 @@ TZ_PARIS = ZoneInfo("Europe/Paris")
 TZ_TUNIS = ZoneInfo("Africa/Tunis")
 
 # ==========================================
-# 2. LOGIQUE INTELLIGENTE (PRIX & POIDS)
-# ==========================================
-
-def calculer_vrai_prix(compagnie_nom, prix_brut):
-    nom_upper = compagnie_nom.upper().strip()
-    
-    # --- A. TRANSAVIA (Le Champion du Poids en option Max) ---
-    if "TRANSAVIA" in nom_upper:
-        suppl_cabine = 48 
-        suppl_soute = 105 
-        
-        prix_cabine = prix_brut + suppl_cabine
-        prix_full = prix_brut + suppl_soute
-        
-        description_bagages = (
-            f"⚠️ ATTENTION TRANSAVIA (Prix ajustés) :\n"
-            f"❌ Base Google ({prix_brut}€) = Sac à dos (0kg garantis)\n"
-            f"🛄 OPTION CABINE (Tarif Smart) : {prix_cabine}€\n"
-            f"   ⚖️ TOTAL : 10 KG (1 valise cabine)\n"
-            f"🛄🗃️ OPTION LOURDE (Tarif Max) : {prix_full}€\n"
-            f"   ⚖️ TOTAL CUMULÉ : 40 KG !!! (10kg Cabine + 30kg Soute)"
-        )
-
-    # --- B. NOUVELAIR (Bon rapport Poids/Prix) ---
-    elif "NOUVELAIR" in nom_upper:
-        suppl_cabine = 0
-        suppl_soute = 40
-        
-        prix_cabine = prix_brut
-        prix_full = prix_brut + suppl_soute
-        
-        description_bagages = (
-            f"✅ NOUVELAIR (Transparent) :\n"
-            f"🛄 CABINE (Inclus) : {prix_cabine}€\n"
-            f"   ⚖️ TOTAL : 8 KG (1 valise cabine)\n"
-            f"🛄🗃️ OPTION LOURDE (Tarif Easy) : {prix_full}€\n"
-            f"   ⚖️ TOTAL CUMULÉ : 33 KG (8kg Cabine + 25kg Soute)"
-        )
-
-    # --- C. TUNISAIR (Standard) ---
-    elif "TUNISAIR" in nom_upper:
-        suppl_cabine = 0
-        suppl_soute = 36
-        
-        prix_cabine = prix_brut
-        prix_full = prix_brut + suppl_soute
-        
-        description_bagages = (
-            f"✅ TUNISAIR (Classique) :\n"
-            f"🛄 CABINE (Inclus) : {prix_cabine}€\n"
-            f"   ⚖️ TOTAL : 8 KG (1 valise cabine)\n"
-            f"🛄🗃️ OPTION LOURDE (Tarif Classic) : {prix_full}€\n"
-            f"   ⚖️ TOTAL CUMULÉ : 31 KG (8kg Cabine + 23kg Soute)"
-        )
-
-    # --- D. AUTRES ---
-    else:
-        prix_cabine = prix_brut
-        prix_full = prix_brut + 50
-        description_bagages = (
-            f"❓ COMPAGNIE INCONNUE ({compagnie_nom})\n"
-            f"   ⚖️ Poids non garanti par le script."
-        )
-    
-    return prix_cabine, prix_full, description_bagages
-
-# ==========================================
-# 3. FONCTIONS UTILITAIRES
+# 2. GÉNÉRATEURS DE DATES
 # ==========================================
 
 def get_next_30_days():
+    """
+    Génère les 30 prochains jours pour l'aller.
+    """
+    print(f"📅 Calcul des dates ALLER (30 jours glissants)...")
     dates = []
     today = datetime.now()
     current = today + timedelta(days=1)
+    
     for _ in range(30):
         dates.append(current.strftime("%Y-%m-%d"))
         current += timedelta(days=1)
+        
     return dates
 
-def safe_get_price(vol):
+def get_dates_vacances_pour_retour():
+    """
+    Télécharge l'ICS Zone C et cible les périodes de vacances pour le RETOUR.
+    On prend large : semaine avant + vacances + semaine après.
+    """
+    url_ics = "https://fr.ftp.opendatasoft.com/openscol/fr-en-calendrier-scolaire/Zone-C.ics"
+    print(f"🎓 Analyse des vacances Zone C pour le RETOUR...", end=" ")
+    
+    dates_cibles = set()
+    today = datetime.now().date()
+    
     try:
-        p_val = vol.get('price')
-        if isinstance(p_val, int) or isinstance(p_val, float):
-            return int(p_val)
-        elif isinstance(p_val, dict):
-            return int(p_val.get('raw', 9999))
-        return 9999
-    except:
-        return 9999
+        r = requests.get(url_ics)
+        r.encoding = 'utf-8'
+        c = Calendar(r.text)
+        
+        for e in c.events:
+            # Si les vacances finissent dans le futur
+            if e.end.date() >= today:
+                # Période de scan : Vacances +/- 7 jours
+                start_window = e.begin.date() - timedelta(days=7)
+                end_window = e.end.date() + timedelta(days=7)
+                
+                current = start_window
+                while current <= end_window:
+                    if current >= today:
+                        dates_cibles.add(current.strftime("%Y-%m-%d"))
+                    current += timedelta(days=1)
+        
+        sorted_dates = sorted(list(dates_cibles))
+        # Limitation technique pour ne pas griller la clé 2 (145 requêtes max)
+        final_dates = sorted_dates[:145]
+        
+        print(f"✅ OK ! ({len(final_dates)} jours de scan identifiés)")
+        return final_dates
+
+    except Exception as e:
+        print(f"❌ Erreur ICS ({e}). Fallback sur 30 jours.")
+        return get_next_30_days()
+
+# ==========================================
+# 3. LOGIQUE PRIX & POIDS
+# ==========================================
+
+def calculer_infos_completes(compagnie_nom, prix_brut):
+    nom_upper = compagnie_nom.upper().strip()
+    p_cabine = prix_brut
+    p_full = prix_brut + 50
+    details = ""
+
+    if "TRANSAVIA" in nom_upper:
+        p_cabine = prix_brut + 48
+        p_full = prix_brut + 105
+        details = (
+            f"⚠️ ATTENTION TRANSAVIA (Prix ajustés) :\n"
+            f"❌ Base Google ({prix_brut}€) = Sac à dos (0kg)\n"
+            f"🛄 OPTION CABINE (Tarif Smart) : {p_cabine}€\n"
+            f"   ⚖️ TOTAL : 10 KG\n"
+            f"🛄🗃️ OPTION LOURDE (Tarif Max) : {p_full}€\n"
+            f"   ⚖️ TOTAL CUMULÉ : 40 KG !!! (30kg soute)"
+        )
+    elif "NOUVELAIR" in nom_upper:
+        p_cabine = prix_brut 
+        p_full = prix_brut + 40
+        details = (
+            f"✅ NOUVELAIR (Transparent) :\n"
+            f"🛄 CABINE (Inclus) : {p_cabine}€\n"
+            f"   ⚖️ TOTAL : 8 KG\n"
+            f"🛄🗃️ OPTION LOURDE (Tarif Easy) : {p_full}€\n"
+            f"   ⚖️ TOTAL CUMULÉ : 33 KG (25kg soute)"
+        )
+    elif "TUNISAIR" in nom_upper:
+        p_cabine = prix_brut
+        p_full = prix_brut + 36
+        details = (
+            f"✅ TUNISAIR (Classique) :\n"
+            f"🛄 CABINE (Inclus) : {p_cabine}€\n"
+            f"   ⚖️ TOTAL : 8 KG\n"
+            f"🛄🗃️ OPTION LOURDE (Tarif Classic) : {p_full}€\n"
+            f"   ⚖️ TOTAL CUMULÉ : 31 KG (23kg soute)"
+        )
+    else:
+        details = f"❓ {compagnie_nom} : Prix soute estimé (+50€)"
+
+    return {"prix_cabine": p_cabine, "prix_full": p_full, "details": details}
 
 # ==========================================
 # 4. SCANNER
 # ==========================================
 
-def scanner_vol(date_aller):
-    dt_aller = datetime.strptime(date_aller, "%Y-%m-%d")
+def safe_get_price(vol):
+    try:
+        p_val = vol.get('price')
+        if isinstance(p_val, int) or isinstance(p_val, float): return int(p_val)
+        elif isinstance(p_val, dict): return int(p_val.get('raw', 9999))
+        return 9999
+    except: return 9999
 
+def scanner_vol(date, api_key_to_use, depart, arrivee, sens_voyage):
+    headers = {"x-rapidapi-key": api_key_to_use, "x-rapidapi-host": HOST}
     querystring = {
-        "departure_id": "PAR",
-        "arrival_id": "DJE",
-        "outbound_date": date_aller,
+        "departure_id": depart,
+        "arrival_id": arrivee,
+        "outbound_date": date,
         "currency": "EUR",
         "travel_class": "ECONOMY",
         "adults": "1",
@@ -150,68 +168,63 @@ def scanner_vol(date_aller):
         "country_code": "FR"
     }
 
-    if dt_aller.month in MOIS_ETE:
-        mode_voyage = f"AR ({DUREE_VACANCES_ETE}j)"
-        dt_retour = dt_aller + timedelta(days=DUREE_VACANCES_ETE)
-        querystring["return_date"] = dt_retour.strftime("%Y-%m-%d")
-    else:
-        mode_voyage = "Aller Simple"
-
     try:
-        print(f"🔎 {date_aller}...", end=" ", flush=True)
-        response = requests.get(URL, headers=HEADERS, params=querystring, timeout=15)
+        prefix = "🛫 ALLER" if sens_voyage == "aller" else "🔙 RETOUR"
+        print(f"{prefix} {date}...", end=" ", flush=True)
+        response = requests.get(URL, headers=headers, params=querystring, timeout=15)
 
         if response.status_code == 200:
             data = response.json().get('data', {})
             itineraries = data.get('itineraries', {})
-            vols = (itineraries.get('topFlights') or []) + (itineraries.get('otherFlights') or [])
+            raw_vols = (itineraries.get('topFlights') or []) + (itineraries.get('otherFlights') or [])
 
-            if vols:
-                best_vol = min(vols, key=safe_get_price)
-                prix = safe_get_price(best_vol)
-                segments = best_vol.get('flights', [])
-                if not segments: return None
-
-                seg_aller = segments[0]
-                compagnie = seg_aller.get('airline', 'N/A')
-                num_vol = seg_aller.get('flight_number', '')
-
-                t_dep = seg_aller.get('departure_airport', {}).get('time', '')
-                t_arr = seg_aller.get('arrival_airport', {}).get('time', '')
-                code_dep = seg_aller.get('departure_airport', {}).get('airport_code', 'PAR')
-
-                heure_dep = t_dep.split(' ')[1] if ' ' in t_dep else "00:00"
-                heure_arr = t_arr.split(' ')[1] if ' ' in t_arr else "00:00"
-
-                info_retour = ""
-                if "return_date" in querystring and len(segments) > 1:
-                    seg_retour = segments[-1]
-                    date_ret_raw = seg_retour.get('departure_airport', {}).get('time', '').split(' ')[0]
-                    h_dep_r = seg_retour.get('departure_airport', {}).get('time', '').split(' ')[1]
-                    h_arr_r = seg_retour.get('arrival_airport', {}).get('time', '').split(' ')[1]
-                    info_retour = f"\n🔙 RETOUR ({date_ret_raw}) : {h_dep_r} -> {h_arr_r}"
-
-                print(f"✅ {prix}€ ({compagnie})")
-
-                return {
-                    "date": date_aller,
-                    "prix": prix,
-                    "compagnie": compagnie,
-                    "num_vol": num_vol,
-                    "heure_dep": heure_dep,
-                    "heure_arr": heure_arr,
-                    "code_dep": code_dep,
-                    "info_retour": info_retour,
-                    "mode": mode_voyage
-                }
-            else:
+            if not raw_vols:
                 print("❌ Vide")
+                return None
+
+            candidats = []
+            for vol in raw_vols:
+                prix_brut = safe_get_price(vol)
+                segments = vol.get('flights', [])
+                if not segments: continue
+                compagnie = segments[0].get('airline', 'Inconnue')
+                simu = calculer_infos_completes(compagnie, prix_brut)
+                candidats.append({"vol": vol, "simu": simu, "compagnie": compagnie})
+
+            if not candidats: return None
+
+            # TRI INTELLIGENT : PRIORITÉ PRIX SOUTE
+            best = min(candidats, key=lambda x: x['simu']['prix_full'])
+            
+            final_vol = best['vol']
+            final_simu = best['simu']
+            final_compagnie = best['compagnie']
+
+            seg = final_vol.get('flights', [])[0]
+            num_vol = seg.get('flight_number', '')
+            t_dep = seg.get('departure_airport', {}).get('time', '').split(' ')[1]
+            t_arr = seg.get('arrival_airport', {}).get('time', '').split(' ')[1]
+            code_dep = seg.get('departure_airport', {}).get('airport_code', depart)
+
+            print(f"✅ {final_compagnie} ({final_simu['prix_full']}€)")
+
+            return {
+                "date": date,
+                "compagnie": final_compagnie,
+                "num_vol": num_vol,
+                "heure_dep": t_dep,
+                "heure_arr": t_arr,
+                "code_dep": code_dep,
+                "simu": final_simu,
+                "sens": sens_voyage
+            }
+        elif response.status_code == 429:
+             print("⛔ STOP : QUOTA DÉPASSÉ !")
+             return None
         else:
             print(f"⚠️ Err {response.status_code}")
-
     except Exception as e:
         print(f"💥 {e}")
-
     return None
 
 # ==========================================
@@ -220,69 +233,88 @@ def scanner_vol(date_aller):
 
 def main():
     cal = Calendar()
-    dates_a_scanner = get_next_30_days()
 
-    print("=" * 50)
+    print("=" * 60)
     print(f"🚀 {CALENDAR_NAME}")
-    print("=" * 50)
+    print("=" * 60)
 
-    for date in dates_a_scanner:
-        info = scanner_vol(date)
-
-        if info:
-            e = Event()
-            
-            p_cabine, p_total, texte_bagages = calculer_vrai_prix(info['compagnie'], info['prix'])
-
-            str_start = f"{info['date']} {info['heure_dep']}"
-            str_end = f"{info['date']} {info['heure_arr']}"
-            if info['heure_arr'] < info['heure_dep']:
-                dt_arr_temp = datetime.strptime(info['date'], "%Y-%m-%d") + timedelta(days=1)
-                str_end = f"{dt_arr_temp.strftime('%Y-%m-%d')} {info['heure_arr']}"
-
-            e.begin = datetime.strptime(str_start, "%Y-%m-%d %H:%M").replace(tzinfo=TZ_PARIS)
-            e.end = datetime.strptime(str_end, "%Y-%m-%d %H:%M").replace(tzinfo=TZ_TUNIS)
-
-            # TITRE
-            icon_deal = "🔥" if p_cabine < 150 else "✈️"
-            e.name = f"{icon_deal} 🛄{p_cabine}€ | 🛄🗃️{p_total}€ • {info['compagnie']}"
-
-            # DESCRIPTION
-            desc = (
-                f"📊 POIDS & PRIX (Cabine vs Soute)\n"
-                f"----------------------------------\n"
-            )
-            desc += texte_bagages + "\n"
-            desc += f"----------------------------------\n"
-            desc += (
-                f"🎫 {info['mode']}\n"
-                f"🛫 {info['heure_dep']} ({info['code_dep']}) -> {info['heure_arr']} (DJE)\n"
-                f"🏢 {info['compagnie']} ({info['num_vol']})\n"
-            )
-            
-            if info['info_retour']:
-                desc += info['info_retour'] + "\n"
-            
-            e.description = desc
-            e.location = GPS_ADDRESSES.get(info['code_dep'], info['code_dep'])
-            e.alarms.append(DisplayAlarm(trigger=timedelta(days=-1)))
-            e.uid = f"{info['num_vol']}-{info['date']}@allofly"
-
-            cal.events.add(e)
-
-        time.sleep(1.2)
-
-    nom_fichier = "vols_djerba_kilos.ics"
-    ics_content = cal.serialize()
+    # --- PHASE 1 : ALLER (30 JOURS GLISSANTS) ---
+    dates_aller = get_next_30_days()
+    print(f"\n🛫 PHASE 1 : ALLER (Clé 1 - {len(dates_aller)} jours)")
     
+    for date in dates_aller:
+        info = scanner_vol(date, API_KEY_ALLER, "PAR", "DJE", "aller")
+        if info: ajouter_evenement(cal, info)
+        time.sleep(1.1) 
+
+    # --- PHASE 2 : RETOUR (ZONES VACANCES UNIQUEMENT) ---
+    print(f"\n🔙 PHASE 2 : RETOUR (Clé 2 - Zones Vacances)")
+    
+    dates_retour_vacances = get_dates_vacances_pour_retour()
+    
+    for date in dates_retour_vacances:
+        info = scanner_vol(date, API_KEY_RETOUR, "DJE", "PAR", "retour")
+        if info: ajouter_evenement(cal, info)
+        time.sleep(1.1)
+
+    # --- SAUVEGARDE ---
+    nom_fichier = "vols_djerba_final.ics"
+    ics_content = cal.serialize()
     if "X-WR-CALNAME" not in ics_content:
         ics_content = ics_content.replace("VERSION:2.0", f"VERSION:2.0\nX-WR-CALNAME:{CALENDAR_NAME}")
 
     with open(nom_fichier, 'w', encoding='utf-8') as f:
         f.write(ics_content)
 
-    print("\n" + "=" * 50)
+    print("\n" + "=" * 60)
     print(f"✨ TERMINÉ ! Fichier généré : {nom_fichier}")
+
+def ajouter_evenement(cal, info):
+    e = Event()
+    simu = info['simu']
+    
+    str_start = f"{info['date']} {info['heure_dep']}"
+    str_end = f"{info['date']} {info['heure_arr']}"
+    if info['heure_arr'] < info['heure_dep']:
+        dt_arr_temp = datetime.strptime(info['date'], "%Y-%m-%d") + timedelta(days=1)
+        str_end = f"{dt_arr_temp.strftime('%Y-%m-%d')} {info['heure_arr']}"
+
+    dt_start = datetime.strptime(str_start, "%Y-%m-%d %H:%M")
+    dt_end = datetime.strptime(str_end, "%Y-%m-%d %H:%M")
+
+    if info['sens'] == "aller":
+        dt_start = dt_start.replace(tzinfo=TZ_PARIS)
+        dt_end = dt_end.replace(tzinfo=TZ_TUNIS)
+        icon_sens = "🛫"
+        trajet_txt = f"{info['code_dep']} -> DJE"
+    else:
+        dt_start = dt_start.replace(tzinfo=TZ_TUNIS)
+        dt_end = dt_end.replace(tzinfo=TZ_PARIS)
+        icon_sens = "🔙"
+        trajet_txt = f"Djerba -> Paris"
+
+    e.begin = dt_start
+    e.end = dt_end
+    
+    e.name = f"{icon_sens} 🛄{simu['prix_cabine']}€ | 🛄🗃️{simu['prix_full']}€ • {info['compagnie']}"
+
+    desc = (
+        f"🏆 PRIX & POIDS ({info['sens'].upper()})\n"
+        f"----------------------------------\n"
+    )
+    desc += simu['details'] + "\n"
+    desc += f"----------------------------------\n"
+    desc += (
+        f"📍 {trajet_txt}\n"
+        f"🕒 {info['heure_dep']} -> {info['heure_arr']}\n"
+        f"🏢 {info['compagnie']} ({info['num_vol']})\n"
+    )
+    
+    e.description = desc
+    e.location = GPS_ADDRESSES.get(info['code_dep'], info['code_dep'])
+    e.alarms.append(DisplayAlarm(trigger=timedelta(days=-1)))
+    e.uid = f"{info['date']}-{info['sens']}@allofly"
+    cal.events.add(e)
 
 if __name__ == "__main__":
     main()
