@@ -1,0 +1,395 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+X-WR-CALNAME:🌴 Djerba Tracker (Kilos Cumulés) ✈️
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:📊 POIDS & PRIX (Cabine vs Soute)\n----------------------------------\n⚠️ ATTENTION TRANSAVIA (Prix ajustés) :\n❌ Base Google (193€) = Sac à dos (0kg garantis)\n🛄 OPTION CABINE (Tarif Smart) : 241€\n   ⚖️ TOTAL : 10 KG (1 valise cabine)\n🛄🗃️ OPTION LOURDE (Tarif Max) : 298€\n   ⚖️ TOTAL CUMULÉ : 40 KG !!! (10kg Cabine + 30kg Soute)\n----------------------------------\n🎫 Aller Simple\n🛫 08:00 (ORY) -> 10:55 (DJE)\n🏢 Transavia (TO 8392)\n
+DTEND:20251219T095500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251219T070000Z
+SUMMARY:✈️ 🛄241€ | 🛄🗃️298€ • Transavia
+UID:TO 8392-2025-12-19@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:📊 POIDS & PRIX (Cabine vs Soute)\n----------------------------------\n⚠️ ATTENTION TRANSAVIA (Prix ajustés) :\n❌ Base Google (173€) = Sac à dos (0kg garantis)\n🛄 OPTION CABINE (Tarif Smart) : 221€\n   ⚖️ TOTAL : 10 KG (1 valise cabine)\n🛄🗃️ OPTION LOURDE (Tarif Max) : 278€\n   ⚖️ TOTAL CUMULÉ : 40 KG !!! (10kg Cabine + 30kg Soute)\n----------------------------------\n🎫 Aller Simple\n🛫 15:10 (ORY) -> 18:05 (DJE)\n🏢 Transavia (TO 8392)\n
+DTEND:20251223T170500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251223T141000Z
+SUMMARY:✈️ 🛄221€ | 🛄🗃️278€ • Transavia
+UID:TO 8392-2025-12-23@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:📊 POIDS & PRIX (Cabine vs Soute)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 209€\n   ⚖️ TOTAL : 8 KG (1 valise cabine)\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 249€\n   ⚖️ TOTAL CUMULÉ : 33 KG (8kg Cabine + 25kg Soute)\n----------------------------------\n🎫 Aller Simple\n🛫 06:50 (CDG) -> 09:40 (DJE)\n🏢 Nouvelair Tunisie (BJ 555)\n
+DTEND:20251221T084000Z
+LOCATION:Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
+DTSTART:20251221T055000Z
+SUMMARY:✈️ 🛄209€ | 🛄🗃️249€ • Nouvelair Tunisie
+UID:BJ 555-2025-12-21@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:📊 POIDS & PRIX (Cabine vs Soute)\n----------------------------------\n⚠️ ATTENTION TRANSAVIA (Prix ajustés) :\n❌ Base Google (103€) = Sac à dos (0kg garantis)\n🛄 OPTION CABINE (Tarif Smart) : 151€\n   ⚖️ TOTAL : 10 KG (1 valise cabine)\n🛄🗃️ OPTION LOURDE (Tarif Max) : 208€\n   ⚖️ TOTAL CUMULÉ : 40 KG !!! (10kg Cabine + 30kg Soute)\n----------------------------------\n🎫 Aller Simple\n🛫 14:40 (ORY) -> 17:35 (DJE)\n🏢 Transavia (TO 8602)\n
+DTEND:20251208T163500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251208T134000Z
+SUMMARY:✈️ 🛄151€ | 🛄🗃️208€ • Transavia
+UID:TO 8602-2025-12-08@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:📊 POIDS & PRIX (Cabine vs Soute)\n----------------------------------\n⚠️ ATTENTION TRANSAVIA (Prix ajustés) :\n❌ Base Google (173€) = Sac à dos (0kg garantis)\n🛄 OPTION CABINE (Tarif Smart) : 221€\n   ⚖️ TOTAL : 10 KG (1 valise cabine)\n🛄🗃️ OPTION LOURDE (Tarif Max) : 278€\n   ⚖️ TOTAL CUMULÉ : 40 KG !!! (10kg Cabine + 30kg Soute)\n----------------------------------\n🎫 Aller Simple\n🛫 07:20 (ORY) -> 10:15 (DJE)\n🏢 Transavia (TO 8392)\n
+DTEND:20251224T091500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251224T062000Z
+SUMMARY:✈️ 🛄221€ | 🛄🗃️278€ • Transavia
+UID:TO 8392-2025-12-24@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:📊 POIDS & PRIX (Cabine vs Soute)\n----------------------------------\n⚠️ ATTENTION TRANSAVIA (Prix ajustés) :\n❌ Base Google (103€) = Sac à dos (0kg garantis)\n🛄 OPTION CABINE (Tarif Smart) : 151€\n   ⚖️ TOTAL : 10 KG (1 valise cabine)\n🛄🗃️ OPTION LOURDE (Tarif Max) : 208€\n   ⚖️ TOTAL CUMULÉ : 40 KG !!! (10kg Cabine + 30kg Soute)\n----------------------------------\n🎫 Aller Simple\n🛫 06:30 (ORY) -> 09:25 (DJE)\n🏢 Transavia (TO 6306)\n
+DTEND:20251211T082500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251211T053000Z
+SUMMARY:✈️ 🛄151€ | 🛄🗃️208€ • Transavia
+UID:TO 6306-2025-12-11@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:📊 POIDS & PRIX (Cabine vs Soute)\n----------------------------------\n⚠️ ATTENTION TRANSAVIA (Prix ajustés) :\n❌ Base Google (92€) = Sac à dos (0kg garantis)\n🛄 OPTION CABINE (Tarif Smart) : 140€\n   ⚖️ TOTAL : 10 KG (1 valise cabine)\n🛄🗃️ OPTION LOURDE (Tarif Max) : 197€\n   ⚖️ TOTAL CUMULÉ : 40 KG !!! (10kg Cabine + 30kg Soute)\n----------------------------------\n🎫 Aller Simple\n🛫 16:05 (ORY) -> 19:00 (DJE)\n🏢 Transavia (TO 8602)\n
+DTEND:20251209T180000Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251209T150500Z
+SUMMARY:🔥 🛄140€ | 🛄🗃️197€ • Transavia
+UID:TO 8602-2025-12-09@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:📊 POIDS & PRIX (Cabine vs Soute)\n----------------------------------\n⚠️ ATTENTION TRANSAVIA (Prix ajustés) :\n❌ Base Google (103€) = Sac à dos (0kg garantis)\n🛄 OPTION CABINE (Tarif Smart) : 151€\n   ⚖️ TOTAL : 10 KG (1 valise cabine)\n🛄🗃️ OPTION LOURDE (Tarif Max) : 208€\n   ⚖️ TOTAL CUMULÉ : 40 KG !!! (10kg Cabine + 30kg Soute)\n----------------------------------\n🎫 Aller Simple\n🛫 08:55 (ORY) -> 11:50 (DJE)\n🏢 Transavia (TO 6670)\n
+DTEND:20260101T105000Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20260101T075500Z
+SUMMARY:✈️ 🛄151€ | 🛄🗃️208€ • Transavia
+UID:TO 6670-2026-01-01@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:📊 POIDS & PRIX (Cabine vs Soute)\n----------------------------------\n⚠️ ATTENTION TRANSAVIA (Prix ajustés) :\n❌ Base Google (103€) = Sac à dos (0kg garantis)\n🛄 OPTION CABINE (Tarif Smart) : 151€\n   ⚖️ TOTAL : 10 KG (1 valise cabine)\n🛄🗃️ OPTION LOURDE (Tarif Max) : 208€\n   ⚖️ TOTAL CUMULÉ : 40 KG !!! (10kg Cabine + 30kg Soute)\n----------------------------------\n🎫 Aller Simple\n🛫 07:00 (ORY) -> 09:55 (DJE)\n🏢 Transavia (TO 6306)\n
+DTEND:20251212T085500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251212T060000Z
+SUMMARY:✈️ 🛄151€ | 🛄🗃️208€ • Transavia
+UID:TO 6306-2025-12-12@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:📊 POIDS & PRIX (Cabine vs Soute)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 104€\n   ⚖️ TOTAL : 8 KG (1 valise cabine)\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 140€\n   ⚖️ TOTAL CUMULÉ : 31 KG (8kg Cabine + 23kg Soute)\n----------------------------------\n🎫 Aller Simple\n🛫 19:15 (ORY) -> 22:05 (DJE)\n🏢 Tunisair (TU 635)\n
+DTEND:20251206T210500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251206T181500Z
+SUMMARY:🔥 🛄104€ | 🛄🗃️140€ • Tunisair
+UID:TU 635-2025-12-06@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:📊 POIDS & PRIX (Cabine vs Soute)\n----------------------------------\n⚠️ ATTENTION TRANSAVIA (Prix ajustés) :\n❌ Base Google (232€) = Sac à dos (0kg garantis)\n🛄 OPTION CABINE (Tarif Smart) : 280€\n   ⚖️ TOTAL : 10 KG (1 valise cabine)\n🛄🗃️ OPTION LOURDE (Tarif Max) : 337€\n   ⚖️ TOTAL CUMULÉ : 40 KG !!! (10kg Cabine + 30kg Soute)\n----------------------------------\n🎫 Aller Simple\n🛫 08:00 (ORY) -> 10:55 (DJE)\n🏢 Transavia (TO 8392)\n
+DTEND:20251226T095500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251226T070000Z
+SUMMARY:✈️ 🛄280€ | 🛄🗃️337€ • Transavia
+UID:TO 8392-2025-12-26@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:📊 POIDS & PRIX (Cabine vs Soute)\n----------------------------------\n⚠️ ATTENTION TRANSAVIA (Prix ajustés) :\n❌ Base Google (115€) = Sac à dos (0kg garantis)\n🛄 OPTION CABINE (Tarif Smart) : 163€\n   ⚖️ TOTAL : 10 KG (1 valise cabine)\n🛄🗃️ OPTION LOURDE (Tarif Max) : 220€\n   ⚖️ TOTAL CUMULÉ : 40 KG !!! (10kg Cabine + 30kg Soute)\n----------------------------------\n🎫 Aller Simple\n🛫 08:40 (ORY) -> 11:35 (DJE)\n🏢 Transavia (TO 6670)\n
+DTEND:20251230T103500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251230T074000Z
+SUMMARY:✈️ 🛄163€ | 🛄🗃️220€ • Transavia
+UID:TO 6670-2025-12-30@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:📊 POIDS & PRIX (Cabine vs Soute)\n----------------------------------\n⚠️ ATTENTION TRANSAVIA (Prix ajustés) :\n❌ Base Google (103€) = Sac à dos (0kg garantis)\n🛄 OPTION CABINE (Tarif Smart) : 151€\n   ⚖️ TOTAL : 10 KG (1 valise cabine)\n🛄🗃️ OPTION LOURDE (Tarif Max) : 208€\n   ⚖️ TOTAL CUMULÉ : 40 KG !!! (10kg Cabine + 30kg Soute)\n----------------------------------\n🎫 Aller Simple\n🛫 07:10 (ORY) -> 10:05 (DJE)\n🏢 Transavia (TO 6306)\n
+DTEND:20251213T090500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251213T061000Z
+SUMMARY:✈️ 🛄151€ | 🛄🗃️208€ • Transavia
+UID:TO 6306-2025-12-13@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:📊 POIDS & PRIX (Cabine vs Soute)\n----------------------------------\n⚠️ ATTENTION TRANSAVIA (Prix ajustés) :\n❌ Base Google (115€) = Sac à dos (0kg garantis)\n🛄 OPTION CABINE (Tarif Smart) : 163€\n   ⚖️ TOTAL : 10 KG (1 valise cabine)\n🛄🗃️ OPTION LOURDE (Tarif Max) : 220€\n   ⚖️ TOTAL CUMULÉ : 40 KG !!! (10kg Cabine + 30kg Soute)\n----------------------------------\n🎫 Aller Simple\n🛫 08:10 (ORY) -> 11:05 (DJE)\n🏢 Transavia (TO 6410)\n
+DTEND:20251215T100500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251215T071000Z
+SUMMARY:✈️ 🛄163€ | 🛄🗃️220€ • Transavia
+UID:TO 6410-2025-12-15@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:📊 POIDS & PRIX (Cabine vs Soute)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 123€\n   ⚖️ TOTAL : 8 KG (1 valise cabine)\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 163€\n   ⚖️ TOTAL CUMULÉ : 33 KG (8kg Cabine + 25kg Soute)\n----------------------------------\n🎫 Aller Simple\n🛫 12:30 (CDG) -> 15:20 (DJE)\n🏢 Nouvelair Tunisie (BJ 509)\n
+DTEND:20251204T142000Z
+LOCATION:Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
+DTSTART:20251204T113000Z
+SUMMARY:🔥 🛄123€ | 🛄🗃️163€ • Nouvelair Tunisie
+UID:BJ 509-2025-12-04@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:📊 POIDS & PRIX (Cabine vs Soute)\n----------------------------------\n⚠️ ATTENTION TRANSAVIA (Prix ajustés) :\n❌ Base Google (193€) = Sac à dos (0kg garantis)\n🛄 OPTION CABINE (Tarif Smart) : 241€\n   ⚖️ TOTAL : 10 KG (1 valise cabine)\n🛄🗃️ OPTION LOURDE (Tarif Max) : 298€\n   ⚖️ TOTAL CUMULÉ : 40 KG !!! (10kg Cabine + 30kg Soute)\n----------------------------------\n🎫 Aller Simple\n🛫 06:30 (ORY) -> 09:25 (DJE)\n🏢 Transavia (TO 6306)\n
+DTEND:20251225T082500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251225T053000Z
+SUMMARY:✈️ 🛄241€ | 🛄🗃️298€ • Transavia
+UID:TO 6306-2025-12-25@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:📊 POIDS & PRIX (Cabine vs Soute)\n----------------------------------\n⚠️ ATTENTION TRANSAVIA (Prix ajustés) :\n❌ Base Google (141€) = Sac à dos (0kg garantis)\n🛄 OPTION CABINE (Tarif Smart) : 189€\n   ⚖️ TOTAL : 10 KG (1 valise cabine)\n🛄🗃️ OPTION LOURDE (Tarif Max) : 246€\n   ⚖️ TOTAL CUMULÉ : 40 KG !!! (10kg Cabine + 30kg Soute)\n----------------------------------\n🎫 Aller Simple\n🛫 16:05 (ORY) -> 19:00 (DJE)\n🏢 Transavia (TO 8392)\n
+DTEND:20251227T180000Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251227T150500Z
+SUMMARY:✈️ 🛄189€ | 🛄🗃️246€ • Transavia
+UID:TO 8392-2025-12-27@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:📊 POIDS & PRIX (Cabine vs Soute)\n----------------------------------\n✅ NOUVELAIR (Transparent) :\n🛄 CABINE (Inclus) : 114€\n   ⚖️ TOTAL : 8 KG (1 valise cabine)\n🛄🗃️ OPTION LOURDE (Tarif Easy) : 154€\n   ⚖️ TOTAL CUMULÉ : 33 KG (8kg Cabine + 25kg Soute)\n----------------------------------\n🎫 Aller Simple\n🛫 19:00 (CDG) -> 21:50 (DJE)\n🏢 Nouvelair Tunisie (BJ 509)\n
+DTEND:20251205T205000Z
+LOCATION:Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
+DTSTART:20251205T180000Z
+SUMMARY:🔥 🛄114€ | 🛄🗃️154€ • Nouvelair Tunisie
+UID:BJ 509-2025-12-05@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:📊 POIDS & PRIX (Cabine vs Soute)\n----------------------------------\n⚠️ ATTENTION TRANSAVIA (Prix ajustés) :\n❌ Base Google (143€) = Sac à dos (0kg garantis)\n🛄 OPTION CABINE (Tarif Smart) : 191€\n   ⚖️ TOTAL : 10 KG (1 valise cabine)\n🛄🗃️ OPTION LOURDE (Tarif Max) : 248€\n   ⚖️ TOTAL CUMULÉ : 40 KG !!! (10kg Cabine + 30kg Soute)\n----------------------------------\n🎫 Aller Simple\n🛫 16:05 (ORY) -> 19:00 (DJE)\n🏢 Transavia (TO 8602)\n
+DTEND:20251216T180000Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251216T150500Z
+SUMMARY:✈️ 🛄191€ | 🛄🗃️248€ • Transavia
+UID:TO 8602-2025-12-16@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:📊 POIDS & PRIX (Cabine vs Soute)\n----------------------------------\n⚠️ ATTENTION TRANSAVIA (Prix ajustés) :\n❌ Base Google (92€) = Sac à dos (0kg garantis)\n🛄 OPTION CABINE (Tarif Smart) : 140€\n   ⚖️ TOTAL : 10 KG (1 valise cabine)\n🛄🗃️ OPTION LOURDE (Tarif Max) : 197€\n   ⚖️ TOTAL CUMULÉ : 40 KG !!! (10kg Cabine + 30kg Soute)\n----------------------------------\n🎫 Aller Simple\n🛫 07:00 (ORY) -> 09:55 (DJE)\n🏢 Transavia (TO 6306)\n
+DTEND:20260102T085500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20260102T060000Z
+SUMMARY:🔥 🛄140€ | 🛄🗃️197€ • Transavia
+UID:TO 6306-2026-01-02@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:📊 POIDS & PRIX (Cabine vs Soute)\n----------------------------------\n⚠️ ATTENTION TRANSAVIA (Prix ajustés) :\n❌ Base Google (103€) = Sac à dos (0kg garantis)\n🛄 OPTION CABINE (Tarif Smart) : 151€\n   ⚖️ TOTAL : 10 KG (1 valise cabine)\n🛄🗃️ OPTION LOURDE (Tarif Max) : 208€\n   ⚖️ TOTAL CUMULÉ : 40 KG !!! (10kg Cabine + 30kg Soute)\n----------------------------------\n🎫 Aller Simple\n🛫 07:35 (ORY) -> 10:30 (DJE)\n🏢 Transavia (TO 6306)\n
+DTEND:20251231T093000Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251231T063500Z
+SUMMARY:✈️ 🛄151€ | 🛄🗃️208€ • Transavia
+UID:TO 6306-2025-12-31@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:📊 POIDS & PRIX (Cabine vs Soute)\n----------------------------------\n⚠️ ATTENTION TRANSAVIA (Prix ajustés) :\n❌ Base Google (115€) = Sac à dos (0kg garantis)\n🛄 OPTION CABINE (Tarif Smart) : 163€\n   ⚖️ TOTAL : 10 KG (1 valise cabine)\n🛄🗃️ OPTION LOURDE (Tarif Max) : 220€\n   ⚖️ TOTAL CUMULÉ : 40 KG !!! (10kg Cabine + 30kg Soute)\n----------------------------------\n🎫 Aller Simple\n🛫 08:10 (ORY) -> 11:05 (DJE)\n🏢 Transavia (TO 6410)\n
+DTEND:20251229T100500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251229T071000Z
+SUMMARY:✈️ 🛄163€ | 🛄🗃️220€ • Transavia
+UID:TO 6410-2025-12-29@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:📊 POIDS & PRIX (Cabine vs Soute)\n----------------------------------\n⚠️ ATTENTION TRANSAVIA (Prix ajustés) :\n❌ Base Google (103€) = Sac à dos (0kg garantis)\n🛄 OPTION CABINE (Tarif Smart) : 151€\n   ⚖️ TOTAL : 10 KG (1 valise cabine)\n🛄🗃️ OPTION LOURDE (Tarif Max) : 208€\n   ⚖️ TOTAL CUMULÉ : 40 KG !!! (10kg Cabine + 30kg Soute)\n----------------------------------\n🎫 Aller Simple\n🛫 16:00 (ORY) -> 18:55 (DJE)\n🏢 Transavia (TO 8602)\n
+DTEND:20251210T175500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251210T150000Z
+SUMMARY:✈️ 🛄151€ | 🛄🗃️208€ • Transavia
+UID:TO 8602-2025-12-10@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:📊 POIDS & PRIX (Cabine vs Soute)\n----------------------------------\n⚠️ ATTENTION TRANSAVIA (Prix ajustés) :\n❌ Base Google (212€) = Sac à dos (0kg garantis)\n🛄 OPTION CABINE (Tarif Smart) : 260€\n   ⚖️ TOTAL : 10 KG (1 valise cabine)\n🛄🗃️ OPTION LOURDE (Tarif Max) : 317€\n   ⚖️ TOTAL CUMULÉ : 40 KG !!! (10kg Cabine + 30kg Soute)\n----------------------------------\n🎫 Aller Simple\n🛫 07:10 (ORY) -> 10:05 (DJE)\n🏢 Transavia (TO 6306)\n
+DTEND:20251220T090500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251220T061000Z
+SUMMARY:✈️ 🛄260€ | 🛄🗃️317€ • Transavia
+UID:TO 6306-2025-12-20@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:📊 POIDS & PRIX (Cabine vs Soute)\n----------------------------------\n⚠️ ATTENTION TRANSAVIA (Prix ajustés) :\n❌ Base Google (173€) = Sac à dos (0kg garantis)\n🛄 OPTION CABINE (Tarif Smart) : 221€\n   ⚖️ TOTAL : 10 KG (1 valise cabine)\n🛄🗃️ OPTION LOURDE (Tarif Max) : 278€\n   ⚖️ TOTAL CUMULÉ : 40 KG !!! (10kg Cabine + 30kg Soute)\n----------------------------------\n🎫 Aller Simple\n🛫 08:10 (ORY) -> 11:05 (DJE)\n🏢 Transavia (TO 6410)\n
+DTEND:20251222T100500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251222T071000Z
+SUMMARY:✈️ 🛄221€ | 🛄🗃️278€ • Transavia
+UID:TO 6410-2025-12-22@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:📊 POIDS & PRIX (Cabine vs Soute)\n----------------------------------\n✅ TUNISAIR (Classique) :\n🛄 CABINE (Inclus) : 129€\n   ⚖️ TOTAL : 8 KG (1 valise cabine)\n🛄🗃️ OPTION LOURDE (Tarif Classic) : 165€\n   ⚖️ TOTAL CUMULÉ : 31 KG (8kg Cabine + 23kg Soute)\n----------------------------------\n🎫 Aller Simple\n🛫 10:35 (ORY) -> 13:25 (DJE)\n🏢 Tunisair (TU 635)\n
+DTEND:20251214T122500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251214T093500Z
+SUMMARY:🔥 🛄129€ | 🛄🗃️165€ • Tunisair
+UID:TU 635-2025-12-14@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:📊 POIDS & PRIX (Cabine vs Soute)\n----------------------------------\n⚠️ ATTENTION TRANSAVIA (Prix ajustés) :\n❌ Base Google (173€) = Sac à dos (0kg garantis)\n🛄 OPTION CABINE (Tarif Smart) : 221€\n   ⚖️ TOTAL : 10 KG (1 valise cabine)\n🛄🗃️ OPTION LOURDE (Tarif Max) : 278€\n   ⚖️ TOTAL CUMULÉ : 40 KG !!! (10kg Cabine + 30kg Soute)\n----------------------------------\n🎫 Aller Simple\n🛫 07:10 (ORY) -> 10:05 (DJE)\n🏢 Transavia (TO 8392)\n
+DTEND:20251218T090500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251218T061000Z
+SUMMARY:✈️ 🛄221€ | 🛄🗃️278€ • Transavia
+UID:TO 8392-2025-12-18@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:📊 POIDS & PRIX (Cabine vs Soute)\n----------------------------------\n⚠️ ATTENTION TRANSAVIA (Prix ajustés) :\n❌ Base Google (128€) = Sac à dos (0kg garantis)\n🛄 OPTION CABINE (Tarif Smart) : 176€\n   ⚖️ TOTAL : 10 KG (1 valise cabine)\n🛄🗃️ OPTION LOURDE (Tarif Max) : 233€\n   ⚖️ TOTAL CUMULÉ : 40 KG !!! (10kg Cabine + 30kg Soute)\n----------------------------------\n🎫 Aller Simple\n🛫 06:10 (ORY) -> 09:05 (DJE)\n🏢 Transavia (TO 6306)\n
+DTEND:20251228T080500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251228T051000Z
+SUMMARY:✈️ 🛄176€ | 🛄🗃️233€ • Transavia
+UID:TO 6306-2025-12-28@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:📊 POIDS & PRIX (Cabine vs Soute)\n----------------------------------\n⚠️ ATTENTION TRANSAVIA (Prix ajustés) :\n❌ Base Google (103€) = Sac à dos (0kg garantis)\n🛄 OPTION CABINE (Tarif Smart) : 151€\n   ⚖️ TOTAL : 10 KG (1 valise cabine)\n🛄🗃️ OPTION LOURDE (Tarif Max) : 208€\n   ⚖️ TOTAL CUMULÉ : 40 KG !!! (10kg Cabine + 30kg Soute)\n----------------------------------\n🎫 Aller Simple\n🛫 14:20 (ORY) -> 17:15 (DJE)\n🏢 Transavia (TO 8392)\n
+DTEND:20251207T161500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251207T132000Z
+SUMMARY:✈️ 🛄151€ | 🛄🗃️208€ • Transavia
+UID:TO 8392-2025-12-07@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:📊 POIDS & PRIX (Cabine vs Soute)\n----------------------------------\n⚠️ ATTENTION TRANSAVIA (Prix ajustés) :\n❌ Base Google (177€) = Sac à dos (0kg garantis)\n🛄 OPTION CABINE (Tarif Smart) : 225€\n   ⚖️ TOTAL : 10 KG (1 valise cabine)\n🛄🗃️ OPTION LOURDE (Tarif Max) : 282€\n   ⚖️ TOTAL CUMULÉ : 40 KG !!! (10kg Cabine + 30kg Soute)\n----------------------------------\n🎫 Aller Simple\n🛫 06:00 (ORY) -> 08:55 (DJE)\n🏢 Transavia (TO 6306)\n
+DTEND:20251217T075500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251217T050000Z
+SUMMARY:✈️ 🛄225€ | 🛄🗃️282€ • Transavia
+UID:TO 6306-2025-12-17@allofly
+END:VEVENT
+END:VCALENDAR
