@@ -19,8 +19,8 @@ ICS_RELIGIEUX_URL = "https://ics.calendarlabs.com/52/f96c26bf/Islam_Holidays.ics
 ICS_SCOLAIRE_URL = "https://fr.ftp.opendatasoft.com/openscol/fr-en-calendrier-scolaire/Zone-C.ics"
 
 # 🔑 CLÉS API (Séparées pour doubler le quota : 150 Aller / 150 Retour)
-API_KEY_ALLER = "8f656f24dbmsh228d41d26feed1ap158855jsnfde628f67f3e"
-API_KEY_RETOUR = "5b83e86395msh225156d28d5f64bp1b703djsn6d5742f3048a"
+API_KEY_ALLER = "123effddd8msh05c6f2f55fb8930p11d1bdjsn4d9ffc97f316"
+API_KEY_RETOUR = "b6ba120eb3msh49de9408f37f2bcp1b8213jsn6d8b87810c16"
 
 HOST = "google-flights2.p.rapidapi.com"
 URL = f"https://{HOST}/api/v1/searchFlights"
