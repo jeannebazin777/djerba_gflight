@@ -1,0 +1,394 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:💰 PRIX : 193 €\n🎫 TYPE : Aller Simple\n🛫 ALLER : 08:00 (ORY) -> 10:55 (DJE)\n🏢 COMPAGNIE : Transavia (TO 8392)\n\n📍 GPS : Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTEND:20251219T095500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251219T070000Z
+SUMMARY:✈️ 193€ Djerba (Aller Simple - Transavia)
+UID:TO 8392-2025-12-19@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:💰 PRIX : 173 €\n🎫 TYPE : Aller Simple\n🛫 ALLER : 15:10 (ORY) -> 18:05 (DJE)\n🏢 COMPAGNIE : Transavia (TO 8392)\n\n📍 GPS : Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTEND:20251223T170500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251223T141000Z
+SUMMARY:✈️ 173€ Djerba (Aller Simple - Transavia)
+UID:TO 8392-2025-12-23@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:💰 PRIX : 209 €\n🎫 TYPE : Aller Simple\n🛫 ALLER : 06:50 (CDG) -> 09:40 (DJE)\n🏢 COMPAGNIE : Nouvelair Tunisie (BJ 555)\n\n📍 GPS : Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
+DTEND:20251221T084000Z
+LOCATION:Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
+DTSTART:20251221T055000Z
+SUMMARY:✈️ 209€ Djerba (Aller Simple - Nouvelair Tunisie)
+UID:BJ 555-2025-12-21@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:💰 PRIX : 103 €\n🎫 TYPE : Aller Simple\n🛫 ALLER : 14:40 (ORY) -> 17:35 (DJE)\n🏢 COMPAGNIE : Transavia (TO 8602)\n\n📍 GPS : Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTEND:20251208T163500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251208T134000Z
+SUMMARY:🔥 103€ Djerba (Aller Simple - Transavia)
+UID:TO 8602-2025-12-08@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:💰 PRIX : 173 €\n🎫 TYPE : Aller Simple\n🛫 ALLER : 07:20 (ORY) -> 10:15 (DJE)\n🏢 COMPAGNIE : Transavia (TO 8392)\n\n📍 GPS : Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTEND:20251224T091500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251224T062000Z
+SUMMARY:✈️ 173€ Djerba (Aller Simple - Transavia)
+UID:TO 8392-2025-12-24@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:💰 PRIX : 103 €\n🎫 TYPE : Aller Simple\n🛫 ALLER : 06:30 (ORY) -> 09:25 (DJE)\n🏢 COMPAGNIE : Transavia (TO 6306)\n\n📍 GPS : Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTEND:20251211T082500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251211T053000Z
+SUMMARY:🔥 103€ Djerba (Aller Simple - Transavia)
+UID:TO 6306-2025-12-11@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:💰 PRIX : 103 €\n🎫 TYPE : Aller Simple\n🛫 ALLER : 16:05 (ORY) -> 19:00 (DJE)\n🏢 COMPAGNIE : Transavia (TO 8602)\n\n📍 GPS : Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTEND:20251209T180000Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251209T150500Z
+SUMMARY:🔥 103€ Djerba (Aller Simple - Transavia)
+UID:TO 8602-2025-12-09@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:💰 PRIX : 103 €\n🎫 TYPE : Aller Simple\n🛫 ALLER : 08:55 (ORY) -> 11:50 (DJE)\n🏢 COMPAGNIE : Transavia (TO 6670)\n\n📍 GPS : Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTEND:20260101T105000Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20260101T075500Z
+SUMMARY:🔥 103€ Djerba (Aller Simple - Transavia)
+UID:TO 6670-2026-01-01@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:💰 PRIX : 103 €\n🎫 TYPE : Aller Simple\n🛫 ALLER : 07:00 (ORY) -> 09:55 (DJE)\n🏢 COMPAGNIE : Transavia (TO 6306)\n\n📍 GPS : Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTEND:20251212T085500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251212T060000Z
+SUMMARY:🔥 103€ Djerba (Aller Simple - Transavia)
+UID:TO 6306-2025-12-12@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:💰 PRIX : 104 €\n🎫 TYPE : Aller Simple\n🛫 ALLER : 19:15 (ORY) -> 22:05 (DJE)\n🏢 COMPAGNIE : Tunisair (TU 635)\n\n📍 GPS : Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTEND:20251206T210500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251206T181500Z
+SUMMARY:🔥 104€ Djerba (Aller Simple - Tunisair)
+UID:TU 635-2025-12-06@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:💰 PRIX : 232 €\n🎫 TYPE : Aller Simple\n🛫 ALLER : 08:00 (ORY) -> 10:55 (DJE)\n🏢 COMPAGNIE : Transavia (TO 8392)\n\n📍 GPS : Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTEND:20251226T095500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251226T070000Z
+SUMMARY:✈️ 232€ Djerba (Aller Simple - Transavia)
+UID:TO 8392-2025-12-26@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:💰 PRIX : 115 €\n🎫 TYPE : Aller Simple\n🛫 ALLER : 08:40 (ORY) -> 11:35 (DJE)\n🏢 COMPAGNIE : Transavia (TO 6670)\n\n📍 GPS : Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTEND:20251230T103500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251230T074000Z
+SUMMARY:🔥 115€ Djerba (Aller Simple - Transavia)
+UID:TO 6670-2025-12-30@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:💰 PRIX : 103 €\n🎫 TYPE : Aller Simple\n🛫 ALLER : 07:10 (ORY) -> 10:05 (DJE)\n🏢 COMPAGNIE : Transavia (TO 6306)\n\n📍 GPS : Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTEND:20251213T090500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251213T061000Z
+SUMMARY:🔥 103€ Djerba (Aller Simple - Transavia)
+UID:TO 6306-2025-12-13@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:💰 PRIX : 115 €\n🎫 TYPE : Aller Simple\n🛫 ALLER : 08:10 (ORY) -> 11:05 (DJE)\n🏢 COMPAGNIE : Transavia (TO 6410)\n\n📍 GPS : Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTEND:20251215T100500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251215T071000Z
+SUMMARY:🔥 115€ Djerba (Aller Simple - Transavia)
+UID:TO 6410-2025-12-15@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:💰 PRIX : 123 €\n🎫 TYPE : Aller Simple\n🛫 ALLER : 12:30 (CDG) -> 15:20 (DJE)\n🏢 COMPAGNIE : Nouvelair Tunisie (BJ 509)\n\n📍 GPS : Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
+DTEND:20251204T142000Z
+LOCATION:Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
+DTSTART:20251204T113000Z
+SUMMARY:🔥 123€ Djerba (Aller Simple - Nouvelair Tunisie)
+UID:BJ 509-2025-12-04@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:💰 PRIX : 193 €\n🎫 TYPE : Aller Simple\n🛫 ALLER : 06:30 (ORY) -> 09:25 (DJE)\n🏢 COMPAGNIE : Transavia (TO 6306)\n\n📍 GPS : Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTEND:20251225T082500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251225T053000Z
+SUMMARY:✈️ 193€ Djerba (Aller Simple - Transavia)
+UID:TO 6306-2025-12-25@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:💰 PRIX : 141 €\n🎫 TYPE : Aller Simple\n🛫 ALLER : 16:05 (ORY) -> 19:00 (DJE)\n🏢 COMPAGNIE : Transavia (TO 8392)\n\n📍 GPS : Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTEND:20251227T180000Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251227T150500Z
+SUMMARY:🔥 141€ Djerba (Aller Simple - Transavia)
+UID:TO 8392-2025-12-27@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:💰 PRIX : 114 €\n🎫 TYPE : Aller Simple\n🛫 ALLER : 19:00 (CDG) -> 21:50 (DJE)\n🏢 COMPAGNIE : Nouvelair Tunisie (BJ 509)\n\n📍 GPS : Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
+DTEND:20251205T205000Z
+LOCATION:Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
+DTSTART:20251205T180000Z
+SUMMARY:🔥 114€ Djerba (Aller Simple - Nouvelair Tunisie)
+UID:BJ 509-2025-12-05@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:💰 PRIX : 143 €\n🎫 TYPE : Aller Simple\n🛫 ALLER : 16:05 (ORY) -> 19:00 (DJE)\n🏢 COMPAGNIE : Transavia (TO 8602)\n\n📍 GPS : Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTEND:20251216T180000Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251216T150500Z
+SUMMARY:🔥 143€ Djerba (Aller Simple - Transavia)
+UID:TO 8602-2025-12-16@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:💰 PRIX : 92 €\n🎫 TYPE : Aller Simple\n🛫 ALLER : 07:00 (ORY) -> 09:55 (DJE)\n🏢 COMPAGNIE : Transavia (TO 6306)\n\n📍 GPS : Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTEND:20260102T085500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20260102T060000Z
+SUMMARY:🔥 92€ Djerba (Aller Simple - Transavia)
+UID:TO 6306-2026-01-02@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:💰 PRIX : 103 €\n🎫 TYPE : Aller Simple\n🛫 ALLER : 07:35 (ORY) -> 10:30 (DJE)\n🏢 COMPAGNIE : Transavia (TO 6306)\n\n📍 GPS : Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTEND:20251231T093000Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251231T063500Z
+SUMMARY:🔥 103€ Djerba (Aller Simple - Transavia)
+UID:TO 6306-2025-12-31@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:💰 PRIX : 115 €\n🎫 TYPE : Aller Simple\n🛫 ALLER : 08:10 (ORY) -> 11:05 (DJE)\n🏢 COMPAGNIE : Transavia (TO 6410)\n\n📍 GPS : Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTEND:20251229T100500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251229T071000Z
+SUMMARY:🔥 115€ Djerba (Aller Simple - Transavia)
+UID:TO 6410-2025-12-29@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:💰 PRIX : 103 €\n🎫 TYPE : Aller Simple\n🛫 ALLER : 16:00 (ORY) -> 18:55 (DJE)\n🏢 COMPAGNIE : Transavia (TO 8602)\n\n📍 GPS : Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTEND:20251210T175500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251210T150000Z
+SUMMARY:🔥 103€ Djerba (Aller Simple - Transavia)
+UID:TO 8602-2025-12-10@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:💰 PRIX : 212 €\n🎫 TYPE : Aller Simple\n🛫 ALLER : 07:10 (ORY) -> 10:05 (DJE)\n🏢 COMPAGNIE : Transavia (TO 6306)\n\n📍 GPS : Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTEND:20251220T090500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251220T061000Z
+SUMMARY:✈️ 212€ Djerba (Aller Simple - Transavia)
+UID:TO 6306-2025-12-20@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:💰 PRIX : 193 €\n🎫 TYPE : Aller Simple\n🛫 ALLER : 08:10 (ORY) -> 11:05 (DJE)\n🏢 COMPAGNIE : Transavia (TO 6410)\n\n📍 GPS : Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTEND:20251222T100500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251222T071000Z
+SUMMARY:✈️ 193€ Djerba (Aller Simple - Transavia)
+UID:TO 6410-2025-12-22@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:💰 PRIX : 129 €\n🎫 TYPE : Aller Simple\n🛫 ALLER : 10:35 (ORY) -> 13:25 (DJE)\n🏢 COMPAGNIE : Tunisair (TU 635)\n\n📍 GPS : Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTEND:20251214T122500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251214T093500Z
+SUMMARY:🔥 129€ Djerba (Aller Simple - Tunisair)
+UID:TU 635-2025-12-14@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:💰 PRIX : 173 €\n🎫 TYPE : Aller Simple\n🛫 ALLER : 07:10 (ORY) -> 10:05 (DJE)\n🏢 COMPAGNIE : Transavia (TO 8392)\n\n📍 GPS : Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTEND:20251218T090500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251218T061000Z
+SUMMARY:✈️ 173€ Djerba (Aller Simple - Transavia)
+UID:TO 8392-2025-12-18@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:💰 PRIX : 128 €\n🎫 TYPE : Aller Simple\n🛫 ALLER : 06:10 (ORY) -> 09:05 (DJE)\n🏢 COMPAGNIE : Transavia (TO 6306)\n\n📍 GPS : Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTEND:20251228T080500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251228T051000Z
+SUMMARY:🔥 128€ Djerba (Aller Simple - Transavia)
+UID:TO 6306-2025-12-28@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:💰 PRIX : 103 €\n🎫 TYPE : Aller Simple\n🛫 ALLER : 14:20 (ORY) -> 17:15 (DJE)\n🏢 COMPAGNIE : Transavia (TO 8392)\n\n📍 GPS : Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTEND:20251207T161500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251207T132000Z
+SUMMARY:🔥 103€ Djerba (Aller Simple - Transavia)
+UID:TO 8392-2025-12-07@allofly
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+DESCRIPTION:💰 PRIX : 177 €\n🎫 TYPE : Aller Simple\n🛫 ALLER : 06:00 (ORY) -> 08:55 (DJE)\n🏢 COMPAGNIE : Transavia (TO 6306)\n\n📍 GPS : Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTEND:20251217T075500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251217T050000Z
+SUMMARY:✈️ 177€ Djerba (Aller Simple - Transavia)
+UID:TO 6306-2025-12-17@allofly
+END:VEVENT
+END:VCALENDAR
