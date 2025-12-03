@@ -185,7 +185,9 @@ def scanner_vol(date, api_key, depart, arrivee, sens):
     try:
         prefix = "🛫" if sens == "aller" else "🔙"
         print(f"{prefix} {date}...", end=" ", flush=True)
-        r = requests.get(URL, headers=headers, params=q, timeout=15)
+        
+        # --- CORRECTION ICI : Timeout augmenté à 45s ---
+        r = requests.get(URL, headers=headers, params=q, timeout=45)
         
         if r.status_code == 200:
             data = r.json().get('data', {})
