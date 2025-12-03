@@ -1,0 +1,42 @@
+name: Mise à jour Calendrier AlloFly
+
+on:
+  schedule:
+    # Cron : À 08h00, uniquement le Lundi (1 fois par semaine)
+    # Syntaxe : min hour day month day-of-week
+    - cron: '0 8 * * 1'
+
+  # Permet de le lancer manuellement aussi (bouton "Run workflow")
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Récupération du code
+      uses: actions/checkout@v3
+
+    - name: Installation Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: Installation des librairies
+      run: |
+        pip install requests ics
+
+    - name: Lancement du Scraper
+      run: python gflight.py  # Remplace par le VRAI nom de ton fichier python
+
+    - name: Sauvegarde du fichier ICS
+      run: |
+        git config --global user.name 'AlloFly Bot'
+        git config --global user.email 'bot@allofly.com'
+        git add *.ics
+        # On ne commit que s'il y a des changements (pour éviter les erreurs)
+        git commit -m "Mise à jour automatique des prix ✈️" || echo "Pas de changement de prix"
+        git push
