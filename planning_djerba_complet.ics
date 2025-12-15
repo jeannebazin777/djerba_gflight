@@ -3,19 +3,19 @@ VERSION:2.0
 X-WR-CALNAME:🌴 Djerba (Vols & Culture & Ramadan) ✈️
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 165€ (Sac) / 201€ (Valise)\n✈️ VOL: Tunisair (TU 635)\n📍 ORY -> 22:05
-DTEND:20251223T210500Z
-LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
-DTSTART:20251223T181500Z
-SUMMARY:🛫 165€ | 🛄201€ • Tunisair
+DESCRIPTION:💰 PRIX: 176€ (Sac) / 216€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 555)\n📍 CDG -> 14:50
+DTEND:20251223T135000Z
+LOCATION:Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
+DTSTART:20251223T110000Z
+SUMMARY:🛫 176€ | 🛄216€ • Nouvelair Tunisie
 UID:vol-2025-12-23-aller@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 209€ (Sac) / 249€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 703)\n📍 CDG -> 19:05
-DTEND:20251220T180500Z
+DESCRIPTION:💰 PRIX: 247€ (Sac) / 287€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 509)\n📍 CDG -> 22:20
+DTEND:20251220T212000Z
 LOCATION:Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
-DTSTART:20251220T151500Z
-SUMMARY:🛫 209€ | 🛄249€ • Nouvelair Tunisie
+DTSTART:20251220T183000Z
+SUMMARY:🛫 247€ | 🛄287€ • Nouvelair Tunisie
 UID:vol-2025-12-20-aller@allofly
 END:VEVENT
 BEGIN:VEVENT
@@ -35,12 +35,20 @@ SUMMARY:🛫 105€ | 🛄145€ • Nouvelair Tunisie
 UID:vol-2026-01-10-aller@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 185€ (Sac) / 225€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 554)\n📍 DJE -> 19:30
-DTEND:20260101T183000Z
+DESCRIPTION:💰 PRIX: 184€ (Sac) / 224€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 508)\n📍 DJE -> 11:30
+DTEND:20260101T103000Z
 LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
-DTSTART:20260101T153000Z
-SUMMARY:🔙 185€ | 🛄225€ • Nouvelair Tunisie
+DTSTART:20260101T073000Z
+SUMMARY:🔙 184€ | 🛄224€ • Nouvelair Tunisie
 UID:vol-2026-01-01-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:💰 PRIX: 40€ (Sac) / 80€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 508)\n📍 DJE -> 11:30
+DTEND:20260219T103000Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260219T073000Z
+SUMMARY:🔙 40€ | 🛄80€ • Nouvelair Tunisie
+UID:vol-2026-02-19-retour@allofly
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:💰 PRIX: 52€ (Sac) / 88€ (Valise)\n✈️ VOL: Tunisair (TU 634)\n📍 DJE -> 09:45
@@ -75,12 +83,11 @@ SUMMARY:🔙 40€ | 🛄80€ • Nouvelair Tunisie
 UID:vol-2026-02-15-retour@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 63€ (Sac) / 99€ (Valise)\n✈️ VOL: Tunisair (TU 634)\n📍 DJE -> 09:35
-DTEND:20251214T083500Z
-LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
-DTSTART:20251214T055000Z
-SUMMARY:🔙 63€ | 🛄99€ • Tunisair
-UID:vol-2025-12-14-retour@allofly
+DTSTART;VALUE=DATE:20260320
+DESCRIPTION:🍪 Aïd el-Fitr\nFête de la rupture du jeûne (Marque la fin du Ramadan).
+LOCATION:Tunisie
+SUMMARY:🍪 Aïd el-Fitr
+UID:evt-🍪 Aïd el-Fitr-2026-03-20@allofly
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261015
@@ -98,20 +105,25 @@ SUMMARY:🛫 105€ | 🛄145€ • Nouvelair Tunisie
 UID:vol-2025-12-31-aller@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 209€ (Sac) / 249€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 509)\n📍 CDG -> 19:50
-DTEND:20251217T185000Z
-LOCATION:Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
-DTSTART:20251217T160000Z
-SUMMARY:🛫 209€ | 🛄249€ • Nouvelair Tunisie
+DTSTART;VALUE=DATE:20260318
+DESCRIPTION:Une des nuits impaires sacrées (Nuit du Destin).
+SUMMARY:✨ Nuit 29 (Laylat al-Qadr ?)
+UID:laylat-29-2026-02-18@allofly
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:💰 PRIX: 259€ (Sac) / 295€ (Valise)\n✈️ VOL: Tunisair (TU 635)\n📍 ORY -> 13:25
+DTEND:20251217T122500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251217T093500Z
+SUMMARY:🛫 259€ | 🛄295€ • Tunisair
 UID:vol-2025-12-17-aller@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 123€ (Sac) / 163€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 509)\n📍 CDG -> 21:55
-DTEND:20251214T205500Z
-LOCATION:Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
-DTSTART:20251214T180500Z
-SUMMARY:🛫 123€ | 🛄163€ • Nouvelair Tunisie
-UID:vol-2025-12-14-aller@allofly
+DTSTART;VALUE=DATE:20260218
+DTEND;VALUE=DATE:20260321
+DESCRIPTION:Mois de jeûne et de recueillement.
+SUMMARY:🌙 Mois de Ramadan
+UID:ramadan-2026-02-18@allofly
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:💰 PRIX: 105€ (Sac) / 145€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 509)\n📍 CDG -> 19:50
@@ -137,19 +149,32 @@ SUMMARY:🇹🇳 Indépendance
 UID:evt-🇹🇳 Indépendance-2026-03-20@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 105€ (Sac) / 145€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 509)\n📍 CDG -> 15:20
-DTEND:20260101T142000Z
+DESCRIPTION:💰 PRIX: 105€ (Sac) / 145€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 555)\n📍 CDG -> 23:20
+DTEND:20260101T222000Z
 LOCATION:Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
-DTSTART:20260101T113000Z
+DTSTART:20260101T193000Z
 SUMMARY:🛫 105€ | 🛄145€ • Nouvelair Tunisie
 UID:vol-2026-01-01-aller@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 165€ (Sac) / 205€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 508)\n📍 DJE -> 16:00
+DTSTART;VALUE=DATE:20260626
+DESCRIPTION:☪️ Achoura\nJour de jeûne et de commémoration.
+LOCATION:Tunisie
+SUMMARY:☪️ Achoura
+UID:evt-☪️ Achoura-2026-06-26@allofly
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260316
+DESCRIPTION:Une des nuits impaires sacrées (Nuit du Destin).
+SUMMARY:✨ Nuit 27 (Laylat al-Qadr ?)
+UID:laylat-27-2026-02-18@allofly
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:💰 PRIX: 228€ (Sac) / 268€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 508)\n📍 DJE -> 16:00
 DTEND:20251231T150000Z
 LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
 DTSTART:20251231T120000Z
-SUMMARY:🔙 165€ | 🛄205€ • Nouvelair Tunisie
+SUMMARY:🔙 228€ | 🛄268€ • Nouvelair Tunisie
 UID:vol-2025-12-31-retour@allofly
 END:VEVENT
 BEGIN:VEVENT
@@ -160,11 +185,11 @@ SUMMARY:🔥 Révolution
 UID:evt-🔥 Révolution-2026-01-14@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 115€ (Sac) / 220€ (Valise)\n✈️ VOL: Transavia (TO 8392)\n📍 ORY -> 18:05
-DTEND:20260217T170500Z
+DESCRIPTION:💰 PRIX: 185€ (Sac) / 221€ (Valise)\n✈️ VOL: Tunisair (TU 635)\n📍 ORY -> 22:05
+DTEND:20260217T210500Z
 LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
-DTSTART:20260217T141000Z
-SUMMARY:🛫 115€ | 🛄220€ • Transavia
+DTSTART:20260217T181500Z
+SUMMARY:🛫 185€ | 🛄221€ • Tunisair
 UID:vol-2026-02-17-aller@allofly
 END:VEVENT
 BEGIN:VEVENT
@@ -176,11 +201,11 @@ SUMMARY:🛫 165€ | 🛄201€ • Tunisair
 UID:vol-2026-02-14-aller@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 123€ (Sac) / 163€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 555)\n📍 CDG -> 14:00
+DESCRIPTION:💰 PRIX: 162€ (Sac) / 202€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 555)\n📍 CDG -> 14:00
 DTEND:20251228T130000Z
 LOCATION:Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
 DTSTART:20251228T101000Z
-SUMMARY:🛫 123€ | 🛄163€ • Nouvelair Tunisie
+SUMMARY:🛫 162€ | 🛄202€ • Nouvelair Tunisie
 UID:vol-2025-12-28-aller@allofly
 END:VEVENT
 BEGIN:VEVENT
@@ -192,27 +217,33 @@ SUMMARY:🛫 239€ | 🛄275€ • Tunisair
 UID:vol-2025-12-25-aller@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 165€ (Sac) / 201€ (Valise)\n✈️ VOL: Tunisair (TU 635)\n📍 ORY -> 20:05
+DESCRIPTION:💰 PRIX: 239€ (Sac) / 275€ (Valise)\n✈️ VOL: Tunisair (TU 635)\n📍 ORY -> 20:05
 DTEND:20251222T190500Z
 LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
 DTSTART:20251222T161500Z
-SUMMARY:🛫 165€ | 🛄201€ • Tunisair
+SUMMARY:🛫 239€ | 🛄275€ • Tunisair
 UID:vol-2025-12-22-aller@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 71€ (Sac) / 107€ (Valise)\n✈️ VOL: Tunisair (TU 634)\n📍 DJE -> 09:35
+DESCRIPTION:💰 PRIX: 88€ (Sac) / 124€ (Valise)\n✈️ VOL: Tunisair (TU 634)\n📍 DJE -> 09:35
 DTEND:20260111T083500Z
 LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
 DTSTART:20260111T055000Z
-SUMMARY:🔙 71€ | 🛄107€ • Tunisair
+SUMMARY:🔙 88€ | 🛄124€ • Tunisair
 UID:vol-2026-01-11-retour@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 104€ (Sac) / 140€ (Valise)\n✈️ VOL: Tunisair (TU 634)\n📍 DJE -> 09:35
-DTEND:20251228T083500Z
+DTSTART;VALUE=DATE:20260314
+DESCRIPTION:Une des nuits impaires sacrées (Nuit du Destin).
+SUMMARY:✨ Nuit 25 (Laylat al-Qadr ?)
+UID:laylat-25-2026-02-18@allofly
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:💰 PRIX: 110€ (Sac) / 150€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 554)\n📍 DJE -> 10:00
+DTEND:20251228T090000Z
 LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
-DTSTART:20251228T055000Z
-SUMMARY:🔙 104€ | 🛄140€ • Tunisair
+DTSTART:20251228T060000Z
+SUMMARY:🔙 110€ | 🛄150€ • Nouvelair Tunisie
 UID:vol-2025-12-28-retour@allofly
 END:VEVENT
 BEGIN:VEVENT
@@ -224,11 +255,11 @@ SUMMARY:🛫 104€ | 🛄140€ • Tunisair
 UID:vol-2026-01-12-aller@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 71€ (Sac) / 107€ (Valise)\n✈️ VOL: Tunisair (TU 634)\n📍 DJE -> 09:35
+DESCRIPTION:💰 PRIX: 88€ (Sac) / 124€ (Valise)\n✈️ VOL: Tunisair (TU 634)\n📍 DJE -> 09:35
 DTEND:20251226T083500Z
 LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
 DTSTART:20251226T055000Z
-SUMMARY:🔙 71€ | 🛄107€ • Tunisair
+SUMMARY:🔙 88€ | 🛄124€ • Tunisair
 UID:vol-2025-12-26-retour@allofly
 END:VEVENT
 BEGIN:VEVENT
@@ -240,35 +271,41 @@ SUMMARY:🔙 54€ | 🛄94€ • Nouvelair Tunisie
 UID:vol-2025-12-24-retour@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 104€ (Sac) / 140€ (Valise)\n✈️ VOL: Tunisair (TU 634)\n📍 DJE -> 09:45
-DTEND:20260108T084500Z
+DESCRIPTION:💰 PRIX: 110€ (Sac) / 150€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 508)\n📍 DJE -> 11:30
+DTEND:20260108T103000Z
 LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
-DTSTART:20260108T060000Z
-SUMMARY:🔙 104€ | 🛄140€ • Tunisair
+DTSTART:20260108T073000Z
+SUMMARY:🔙 110€ | 🛄150€ • Nouvelair Tunisie
 UID:vol-2026-01-08-retour@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 40€ (Sac) / 80€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 508)\n📍 DJE -> 11:30
-DTEND:20251222T103000Z
+DESCRIPTION:💰 PRIX: 52€ (Sac) / 88€ (Valise)\n✈️ VOL: Tunisair (TU 634)\n📍 DJE -> 16:25
+DTEND:20251222T152500Z
 LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
-DTSTART:20251222T073000Z
-SUMMARY:🔙 40€ | 🛄80€ • Nouvelair Tunisie
+DTSTART:20251222T124000Z
+SUMMARY:🔙 52€ | 🛄88€ • Tunisair
 UID:vol-2025-12-22-retour@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 165€ (Sac) / 205€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 702)\n📍 DJE -> 20:00
-DTEND:20260106T190000Z
+DTSTART;VALUE=DATE:20260312
+DESCRIPTION:Une des nuits impaires sacrées (Nuit du Destin).
+SUMMARY:✨ Nuit 23 (Laylat al-Qadr ?)
+UID:laylat-23-2026-02-18@allofly
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:💰 PRIX: 196€ (Sac) / 232€ (Valise)\n✈️ VOL: Tunisair (TU 634)\n📍 DJE -> 18:15
+DTEND:20260106T171500Z
 LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
-DTSTART:20260106T160000Z
-SUMMARY:🔙 165€ | 🛄205€ • Nouvelair Tunisie
+DTSTART:20260106T143000Z
+SUMMARY:🔙 196€ | 🛄232€ • Tunisair
 UID:vol-2026-01-06-retour@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 54€ (Sac) / 94€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 508)\n📍 DJE -> 18:30
-DTEND:20251220T173000Z
+DESCRIPTION:💰 PRIX: 71€ (Sac) / 107€ (Valise)\n✈️ VOL: Tunisair (TU 634)\n📍 DJE -> 18:15
+DTEND:20251220T171500Z
 LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
 DTSTART:20251220T143000Z
-SUMMARY:🔙 54€ | 🛄94€ • Nouvelair Tunisie
+SUMMARY:🔙 71€ | 🛄107€ • Tunisair
 UID:vol-2025-12-20-retour@allofly
 END:VEVENT
 BEGIN:VEVENT
@@ -280,43 +317,35 @@ SUMMARY:🛫 105€ | 🛄145€ • Nouvelair Tunisie
 UID:vol-2025-12-30-aller@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 332€ (Sac) / 368€ (Valise)\n✈️ VOL: Tunisair (TU 634)\n📍 DJE -> 09:35
-DTEND:20260104T083500Z
+DESCRIPTION:💰 PRIX: 309€ (Sac) / 349€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 554)\n📍 DJE -> 10:00
+DTEND:20260104T090000Z
 LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
-DTSTART:20260104T055000Z
-SUMMARY:🔙 332€ | 🛄368€ • Tunisair
+DTSTART:20260104T060000Z
+SUMMARY:🔙 309€ | 🛄349€ • Nouvelair Tunisie
 UID:vol-2026-01-04-retour@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 209€ (Sac) / 249€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 703)\n📍 CDG -> 11:10
-DTEND:20251219T101000Z
+DESCRIPTION:💰 PRIX: 247€ (Sac) / 287€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 509)\n📍 CDG -> 21:50
+DTEND:20251219T205000Z
 LOCATION:Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
-DTSTART:20251219T072000Z
-SUMMARY:🛫 209€ | 🛄249€ • Nouvelair Tunisie
+DTSTART:20251219T180000Z
+SUMMARY:🛫 247€ | 🛄287€ • Nouvelair Tunisie
 UID:vol-2025-12-19-aller@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 165€ (Sac) / 201€ (Valise)\n✈️ VOL: Tunisair (TU 635)\n📍 ORY -> 22:05
+DESCRIPTION:💰 PRIX: 185€ (Sac) / 221€ (Valise)\n✈️ VOL: Tunisair (TU 635)\n📍 ORY -> 22:05
 DTEND:20251216T210500Z
 LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
 DTSTART:20251216T181500Z
-SUMMARY:🛫 165€ | 🛄201€ • Tunisair
+SUMMARY:🛫 185€ | 🛄221€ • Tunisair
 UID:vol-2025-12-16-aller@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 123€ (Sac) / 163€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 509)\n📍 CDG -> 22:20
-DTEND:20251213T212000Z
-LOCATION:Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
-DTSTART:20251213T183000Z
-SUMMARY:🛫 123€ | 🛄163€ • Nouvelair Tunisie
-UID:vol-2025-12-13-aller@allofly
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 267€ (Sac) / 303€ (Valise)\n✈️ VOL: Tunisair (TU 634)\n📍 DJE -> 09:35
-DTEND:20260102T083500Z
+DESCRIPTION:💰 PRIX: 277€ (Sac) / 317€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 702)\n📍 DJE -> 10:00
+DTEND:20260102T090000Z
 LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
-DTSTART:20260102T055000Z
-SUMMARY:🔙 267€ | 🛄303€ • Tunisair
+DTSTART:20260102T060000Z
+SUMMARY:🔙 277€ | 🛄317€ • Nouvelair Tunisie
 UID:vol-2026-01-02-retour@allofly
 END:VEVENT
 BEGIN:VEVENT
@@ -328,11 +357,11 @@ SUMMARY:🛫 105€ | 🛄145€ • Nouvelair Tunisie
 UID:vol-2026-01-09-aller@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 52€ (Sac) / 88€ (Valise)\n✈️ VOL: Tunisair (TU 634)\n📍 DJE -> 09:35
+DESCRIPTION:💰 PRIX: 63€ (Sac) / 99€ (Valise)\n✈️ VOL: Tunisair (TU 634)\n📍 DJE -> 09:35
 DTEND:20251219T083500Z
 LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
 DTSTART:20251219T055000Z
-SUMMARY:🔙 52€ | 🛄88€ • Tunisair
+SUMMARY:🔙 63€ | 🛄99€ • Tunisair
 UID:vol-2025-12-19-retour@allofly
 END:VEVENT
 BEGIN:VEVENT
@@ -344,12 +373,26 @@ SUMMARY:🛫 104€ | 🛄140€ • Tunisair
 UID:vol-2026-01-06-aller@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 105€ (Sac) / 145€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 509)\n📍 CDG -> 22:20
-DTEND:20260103T212000Z
+DESCRIPTION:💰 PRIX: 105€ (Sac) / 145€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 555)\n📍 CDG -> 14:05
+DTEND:20260103T130500Z
 LOCATION:Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
-DTSTART:20260103T183000Z
+DTSTART:20260103T101500Z
 SUMMARY:🛫 105€ | 🛄145€ • Nouvelair Tunisie
 UID:vol-2026-01-03-aller@allofly
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260310
+DESCRIPTION:Une des nuits impaires sacrées (Nuit du Destin).
+SUMMARY:✨ Nuit 21 (Laylat al-Qadr ?)
+UID:laylat-21-2026-02-18@allofly
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:💰 PRIX: 40€ (Sac) / 80€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 508)\n📍 DJE -> 16:00
+DTEND:20260218T150000Z
+LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
+DTSTART:20260218T120000Z
+SUMMARY:🔙 40€ | 🛄80€ • Nouvelair Tunisie
+UID:vol-2026-02-18-retour@allofly
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260725
@@ -359,11 +402,11 @@ SUMMARY:🇹🇳 République
 UID:evt-🇹🇳 République-2026-07-25@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 52€ (Sac) / 88€ (Valise)\n✈️ VOL: Tunisair (TU 634)\n📍 DJE -> 09:35
+DESCRIPTION:💰 PRIX: 63€ (Sac) / 99€ (Valise)\n✈️ VOL: Tunisair (TU 634)\n📍 DJE -> 09:35
 DTEND:20251217T083500Z
 LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
 DTSTART:20251217T055000Z
-SUMMARY:🔙 52€ | 🛄88€ • Tunisair
+SUMMARY:🔙 63€ | 🛄99€ • Tunisair
 UID:vol-2025-12-17-retour@allofly
 END:VEVENT
 BEGIN:VEVENT
@@ -375,11 +418,11 @@ SUMMARY:🔙 40€ | 🛄80€ • Nouvelair Tunisie
 UID:vol-2026-02-16-retour@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 54€ (Sac) / 94€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 508)\n📍 DJE -> 11:30
-DTEND:20251215T103000Z
+DESCRIPTION:💰 PRIX: 63€ (Sac) / 99€ (Valise)\n✈️ VOL: Tunisair (TU 634)\n📍 DJE -> 18:15
+DTEND:20251215T171500Z
 LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
-DTSTART:20251215T073000Z
-SUMMARY:🔙 54€ | 🛄94€ • Nouvelair Tunisie
+DTSTART:20251215T143000Z
+SUMMARY:🔙 63€ | 🛄99€ • Tunisair
 UID:vol-2025-12-15-retour@allofly
 END:VEVENT
 BEGIN:VEVENT
@@ -398,12 +441,12 @@ SUMMARY:🔙 40€ | 🛄80€ • Nouvelair Tunisie
 UID:vol-2026-02-14-retour@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 63€ (Sac) / 99€ (Valise)\n✈️ VOL: Tunisair (TU 634)\n📍 DJE -> 18:15
-DTEND:20251213T171500Z
-LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
-DTSTART:20251213T143000Z
-SUMMARY:🔙 63€ | 🛄99€ • Tunisair
-UID:vol-2025-12-13-retour@allofly
+DESCRIPTION:💰 PRIX: 165€ (Sac) / 201€ (Valise)\n✈️ VOL: Tunisair (TU 635)\n📍 ORY -> 13:25
+DTEND:20260219T122500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20260219T093500Z
+SUMMARY:🛫 165€ | 🛄201€ • Tunisair
+UID:vol-2026-02-19-aller@allofly
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260409
@@ -421,27 +464,27 @@ SUMMARY:🛫 165€ | 🛄201€ • Tunisair
 UID:vol-2026-02-16-aller@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 123€ (Sac) / 163€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 509)\n📍 CDG -> 22:20
-DTEND:20251227T212000Z
-LOCATION:Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
-DTSTART:20251227T183000Z
-SUMMARY:🛫 123€ | 🛄163€ • Nouvelair Tunisie
+DESCRIPTION:💰 PRIX: 129€ (Sac) / 165€ (Valise)\n✈️ VOL: Tunisair (TU 635)\n📍 ORY -> 22:05
+DTEND:20251227T210500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251227T181500Z
+SUMMARY:🛫 129€ | 🛄165€ • Tunisair
 UID:vol-2025-12-27-aller@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 176€ (Sac) / 216€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 509)\n📍 CDG -> 19:50
-DTEND:20251224T185000Z
-LOCATION:Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
-DTSTART:20251224T160000Z
-SUMMARY:🛫 176€ | 🛄216€ • Nouvelair Tunisie
+DESCRIPTION:💰 PRIX: 156€ (Sac) / 261€ (Valise)\n✈️ VOL: Transavia (TO 6306)\n📍 ORY -> 08:55
+DTEND:20251224T075500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251224T050000Z
+SUMMARY:🛫 156€ | 🛄261€ • Transavia
 UID:vol-2025-12-24-aller@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 190€ (Sac) / 230€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 555)\n📍 CDG -> 09:40
-DTEND:20251221T084000Z
+DESCRIPTION:💰 PRIX: 228€ (Sac) / 268€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 509)\n📍 CDG -> 21:55
+DTEND:20251221T205500Z
 LOCATION:Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
-DTSTART:20251221T055000Z
-SUMMARY:🛫 190€ | 🛄230€ • Nouvelair Tunisie
+DTSTART:20251221T180500Z
+SUMMARY:🛫 228€ | 🛄268€ • Nouvelair Tunisie
 UID:vol-2025-12-21-aller@allofly
 END:VEVENT
 BEGIN:VEVENT
@@ -453,11 +496,11 @@ SUMMARY:🛫 105€ | 🛄145€ • Nouvelair Tunisie
 UID:vol-2026-01-11-aller@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 144€ (Sac) / 184€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 508)\n📍 DJE -> 19:00
+DESCRIPTION:💰 PRIX: 164€ (Sac) / 204€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 508)\n📍 DJE -> 19:00
 DTEND:20251230T180000Z
 LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
 DTSTART:20251230T150000Z
-SUMMARY:🔙 144€ | 🛄184€ • Nouvelair Tunisie
+SUMMARY:🔙 164€ | 🛄204€ • Nouvelair Tunisie
 UID:vol-2025-12-30-retour@allofly
 END:VEVENT
 BEGIN:VEVENT
@@ -468,11 +511,11 @@ SUMMARY:🇹🇳 Fête de la Femme
 UID:evt-🇹🇳 Fête de la Femme-2026-08-13@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 190€ (Sac) / 230€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 509)\n📍 CDG -> 15:20
-DTEND:20251218T142000Z
-LOCATION:Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
-DTSTART:20251218T113000Z
-SUMMARY:🛫 190€ | 🛄230€ • Nouvelair Tunisie
+DESCRIPTION:💰 PRIX: 239€ (Sac) / 275€ (Valise)\n✈️ VOL: Tunisair (TU 635)\n📍 ORY -> 13:25
+DTEND:20251218T122500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251218T093500Z
+SUMMARY:🛫 239€ | 🛄275€ • Tunisair
 UID:vol-2025-12-18-aller@allofly
 END:VEVENT
 BEGIN:VEVENT
@@ -484,19 +527,19 @@ SUMMARY:🔙 71€ | 🛄107€ • Tunisair
 UID:vol-2026-01-12-retour@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 165€ (Sac) / 201€ (Valise)\n✈️ VOL: Tunisair (TU 635)\n📍 ORY -> 22:05
+DESCRIPTION:💰 PRIX: 119€ (Sac) / 155€ (Valise)\n✈️ VOL: Tunisair (TU 635)\n📍 ORY -> 22:05
 DTEND:20251215T210500Z
 LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
 DTSTART:20251215T181500Z
-SUMMARY:🛫 165€ | 🛄201€ • Tunisair
+SUMMARY:🛫 119€ | 🛄155€ • Tunisair
 UID:vol-2025-12-15-aller@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 110€ (Sac) / 150€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 508)\n📍 DJE -> 11:30
+DESCRIPTION:💰 PRIX: 127€ (Sac) / 167€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 508)\n📍 DJE -> 11:30
 DTEND:20251229T103000Z
 LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
 DTSTART:20251229T073000Z
-SUMMARY:🔙 110€ | 🛄150€ • Nouvelair Tunisie
+SUMMARY:🔙 127€ | 🛄167€ • Nouvelair Tunisie
 UID:vol-2025-12-29-retour@allofly
 END:VEVENT
 BEGIN:VEVENT
@@ -516,19 +559,19 @@ SUMMARY:🔙 104€ | 🛄140€ • Tunisair
 UID:vol-2026-01-10-retour@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 105€ (Sac) / 145€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 509)\n📍 CDG -> 15:20
-DTEND:20260105T142000Z
+DESCRIPTION:💰 PRIX: 105€ (Sac) / 145€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 555)\n📍 CDG -> 23:20
+DTEND:20260105T222000Z
 LOCATION:Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
-DTSTART:20260105T113000Z
+DTSTART:20260105T193000Z
 SUMMARY:🛫 105€ | 🛄145€ • Nouvelair Tunisie
 UID:vol-2026-01-05-aller@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 54€ (Sac) / 94€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 554)\n📍 DJE -> 10:15
+DESCRIPTION:💰 PRIX: 68€ (Sac) / 108€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 554)\n📍 DJE -> 10:15
 DTEND:20251227T091500Z
 LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
 DTSTART:20251227T061500Z
-SUMMARY:🔙 54€ | 🛄94€ • Nouvelair Tunisie
+SUMMARY:🔙 68€ | 🛄108€ • Nouvelair Tunisie
 UID:vol-2025-12-27-retour@allofly
 END:VEVENT
 BEGIN:VEVENT
@@ -548,28 +591,36 @@ SUMMARY:🔙 54€ | 🛄94€ • Nouvelair Tunisie
 UID:vol-2025-12-25-retour@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 104€ (Sac) / 140€ (Valise)\n✈️ VOL: Tunisair (TU 634)\n📍 DJE -> 09:35
+DESCRIPTION:💰 PRIX: 63€ (Sac) / 99€ (Valise)\n✈️ VOL: Tunisair (TU 634)\n📍 DJE -> 09:35
 DTEND:20260109T083500Z
 LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
 DTSTART:20260109T055000Z
-SUMMARY:🔙 104€ | 🛄140€ • Tunisair
+SUMMARY:🔙 63€ | 🛄99€ • Tunisair
 UID:vol-2026-01-09-retour@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 40€ (Sac) / 80€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 508)\n📍 DJE -> 19:00
-DTEND:20251223T180000Z
+DESCRIPTION:💰 PRIX: 54€ (Sac) / 94€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 554)\n📍 DJE -> 11:00
+DTEND:20251223T100000Z
 LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
-DTSTART:20251223T150000Z
-SUMMARY:🔙 40€ | 🛄80€ • Nouvelair Tunisie
+DTSTART:20251223T070000Z
+SUMMARY:🔙 54€ | 🛄94€ • Nouvelair Tunisie
 UID:vol-2025-12-23-retour@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 165€ (Sac) / 205€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 508)\n📍 DJE -> 16:00
+DESCRIPTION:💰 PRIX: 144€ (Sac) / 184€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 508)\n📍 DJE -> 16:00
 DTEND:20260107T150000Z
 LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
 DTSTART:20260107T120000Z
-SUMMARY:🔙 165€ | 🛄205€ • Nouvelair Tunisie
+SUMMARY:🔙 144€ | 🛄184€ • Nouvelair Tunisie
 UID:vol-2026-01-07-retour@allofly
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:💰 PRIX: 185€ (Sac) / 221€ (Valise)\n✈️ VOL: Tunisair (TU 635)\n📍 ORY -> 13:25
+DTEND:20260218T122500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20260218T093500Z
+SUMMARY:🛫 185€ | 🛄221€ • Tunisair
+UID:vol-2026-02-18-aller@allofly
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:💰 PRIX: 165€ (Sac) / 201€ (Valise)\n✈️ VOL: Tunisair (TU 635)\n📍 ORY -> 13:25
@@ -580,19 +631,19 @@ SUMMARY:🛫 165€ | 🛄201€ • Tunisair
 UID:vol-2026-02-15-aller@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 40€ (Sac) / 80€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 508)\n📍 DJE -> 18:05
+DESCRIPTION:💰 PRIX: 54€ (Sac) / 94€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 508)\n📍 DJE -> 18:05
 DTEND:20251221T170500Z
 LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
 DTSTART:20251221T140500Z
-SUMMARY:🔙 40€ | 🛄80€ • Nouvelair Tunisie
+SUMMARY:🔙 54€ | 🛄94€ • Nouvelair Tunisie
 UID:vol-2025-12-21-retour@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 205€ (Sac) / 245€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 508)\n📍 DJE -> 11:30
+DESCRIPTION:💰 PRIX: 184€ (Sac) / 224€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 508)\n📍 DJE -> 11:30
 DTEND:20260105T103000Z
 LOCATION:Aéroport International de Djerba-Zarzis (DJE)\, 4120 Mellita\, Tunisie
 DTSTART:20260105T073000Z
-SUMMARY:🔙 205€ | 🛄245€ • Nouvelair Tunisie
+SUMMARY:🔙 184€ | 🛄224€ • Nouvelair Tunisie
 UID:vol-2026-01-05-retour@allofly
 END:VEVENT
 BEGIN:VEVENT
@@ -604,11 +655,11 @@ SUMMARY:🛫 129€ | 🛄165€ • Tunisair
 UID:vol-2025-12-29-aller@allofly
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:💰 PRIX: 209€ (Sac) / 249€ (Valise)\n✈️ VOL: Nouvelair Tunisie (BJ 509)\n📍 CDG -> 21:50
-DTEND:20251226T205000Z
-LOCATION:Aéroport Paris-Charles de Gaulle (CDG)\, 95700 Roissy-en-France
-DTSTART:20251226T180000Z
-SUMMARY:🛫 209€ | 🛄249€ • Nouvelair Tunisie
+DESCRIPTION:💰 PRIX: 173€ (Sac) / 278€ (Valise)\n✈️ VOL: Transavia (TO 8392)\n📍 ORY -> 10:55
+DTEND:20251226T095500Z
+LOCATION:Aéroport de Paris-Orly (ORY)\, 94390 Orly\, France
+DTSTART:20251226T070000Z
+SUMMARY:🛫 173€ | 🛄278€ • Transavia
 UID:vol-2025-12-26-aller@allofly
 END:VEVENT
 END:VCALENDAR
