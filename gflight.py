@@ -16,9 +16,9 @@ except ImportError:
 
 CALENDAR_NAME = "🌴 Djerba (Vols & Culture & Ramadan) ✈️"
 ICS_RELIGIEUX_URL = "https://ics.calendarlabs.com/52/f96c26bf/Islam_Holidays.ics"
+ICS_SCOLAIRE_URL = "https://fr.ftp.opendatasoft.com/openscol/fr-en-calendrier-scolaire/Zone-C.ics"
 
-# 🔑 LISTE DES CLÉS API (Rotation automatique)
-# Ordre : Nouvelle clé en premier pour l'utiliser en priorité
+# 🔑 LISTE DES CLÉS API (Rotation automatique & Intelligente)
 API_KEYS = [
     "e8ce1ef667msh8e6f813e2b72a85p1bf0f1jsncaac0dab437a", 
     "123effddd8msh05c6f2f55fb8930p11d1bdjsn4d9ffc97f316",
@@ -153,9 +153,13 @@ class KeyManager:
         self.index = 0
         
     def get_key(self):
+        # Retourne une clé et avance le curseur
         k = self.keys[self.index % len(self.keys)]
         self.index += 1
         return k
+    
+    def count(self):
+        return len(self.keys)
 
 def get_sliding_window_dates(days_count=55):
     """Génère les X prochains jours à partir de demain"""
@@ -171,60 +175,84 @@ def get_sliding_window_dates(days_count=55):
     print(f"✅ Du {dates[0]} au {dates[-1]}")
     return dates
 
-def scanner_vol(date, api_key, depart, arrivee, sens):
-    headers = {"x-rapidapi-key": api_key, "x-rapidapi-host": HOST}
+def scanner_vol(date, key_mgr, depart, arrivee, sens):
+    # LOGIQUE DE RETRY : On essaie chaque clé disponible jusqu'à ce que ça marche
+    nb_tries = key_mgr.count()
+    
+    # Affichage du début de ligne une seule fois
+    prefix = "🛫" if sens == "aller" else "🔙"
+    print(f"{prefix} {date}...", end=" ", flush=True)
+    
     q = {"departure_id": depart, "arrival_id": arrivee, "outbound_date": date, 
          "currency": "EUR", "travel_class": "ECONOMY", "adults": "1", "search_type": "cheap", 
          "language_code": "fr", "country_code": "FR"}
-    try:
-        prefix = "🛫" if sens == "aller" else "🔙"
-        print(f"{prefix} {date}...", end=" ", flush=True)
+
+    for _ in range(nb_tries):
+        current_api_key = key_mgr.get_key()
+        headers = {"x-rapidapi-key": current_api_key, "x-rapidapi-host": HOST}
         
-        r = requests.get(URL, headers=headers, params=q, timeout=45)
-        
-        if r.status_code == 200:
-            data = r.json().get('data', {})
-            raw = (data.get('itineraries', {}).get('topFlights') or []) + (data.get('itineraries', {}).get('otherFlights') or [])
-            if not raw: 
-                print("❌")
+        try:
+            r = requests.get(URL, headers=headers, params=q, timeout=45)
+            
+            if r.status_code == 200:
+                # SUCCÈS !
+                data = r.json().get('data', {})
+                raw = (data.get('itineraries', {}).get('topFlights') or []) + (data.get('itineraries', {}).get('otherFlights') or [])
+                
+                if not raw: 
+                    print("❌ (Vide)")
+                    return None
+                
+                candidats = []
+                for vol in raw:
+                    try:
+                        p = vol['price']['raw'] if isinstance(vol['price'], dict) else int(vol['price'])
+                    except: p = 9999
+                    
+                    segs = vol.get('flights', [])
+                    if not segs: continue
+                    cie = segs[0].get('airline', 'Inconnue')
+                    
+                    p_full = p + 50
+                    if "TRANSAVIA" in cie.upper(): p_full = p + 105
+                    elif "NOUVELAIR" in cie.upper(): p_full = p + 40
+                    elif "TUNISAIR" in cie.upper(): p_full = p + 36
+                    
+                    candidats.append({"vol": vol, "p": p, "p_full": p_full, "cie": cie})
+                
+                if not candidats: 
+                    print("❌ (Pas de candidats)")
+                    return None
+                    
+                best = min(candidats, key=lambda x: x['p_full'])
+                print(f"✅ {best['cie']} ({best['p_full']}€)")
+                
+                seg = best['vol']['flights'][0]
+                return {
+                    "date": date, "sens": sens, "cie": best['cie'], 
+                    "p": best['p'], "p_full": best['p_full'],
+                    "dep": seg['departure_airport']['time'].split(' ')[1],
+                    "arr": seg['arrival_airport']['time'].split(' ')[1],
+                    "code_dep": seg['departure_airport']['airport_code'],
+                    "num": seg['flight_number']
+                }
+                
+            elif r.status_code == 429:
+                # ERREUR QUOTA -> On affiche une petite icône et on boucle sur la clé suivante
+                print("🔄", end=" ", flush=True)
+                time.sleep(0.5)
+                continue # Essai suivant avec nouvelle clé
+                
+            else:
+                print(f"⚠️ Err {r.status_code}")
                 return None
-            
-            candidats = []
-            for vol in raw:
-                # Extraction prix
-                try:
-                    p = vol['price']['raw'] if isinstance(vol['price'], dict) else int(vol['price'])
-                except: p = 9999
                 
-                segs = vol.get('flights', [])
-                if not segs: continue
-                cie = segs[0].get('airline', 'Inconnue')
-                
-                # Calcul Prix Soute (Réalité du marché)
-                p_full = p + 50 # Défaut
-                if "TRANSAVIA" in cie.upper(): p_full = p + 105 # +48 cabine + 57 soute
-                elif "NOUVELAIR" in cie.upper(): p_full = p + 40 # +40 soute
-                elif "TUNISAIR" in cie.upper(): p_full = p + 36 # +36 soute
-                
-                candidats.append({"vol": vol, "p": p, "p_full": p_full, "cie": cie})
+        except Exception as e:
+            print(f"Err: {e}")
+            return None
             
-            if not candidats: return None
-            # On prend le moins cher (critère : prix avec valise pour ne pas se faire avoir)
-            best = min(candidats, key=lambda x: x['p_full'])
-            
-            print(f"✅ {best['cie']} ({best['p_full']}€)")
-            
-            seg = best['vol']['flights'][0]
-            return {
-                "date": date, "sens": sens, "cie": best['cie'], 
-                "p": best['p'], "p_full": best['p_full'],
-                "dep": seg['departure_airport']['time'].split(' ')[1],
-                "arr": seg['arrival_airport']['time'].split(' ')[1],
-                "code_dep": seg['departure_airport']['airport_code'],
-                "num": seg['flight_number']
-            }
-        elif r.status_code == 429: print("⛔ Quota"); return None
-    except Exception as e: print(f"Err: {e}")
+    # Si on arrive ici, toutes les clés ont échoué
+    print("⛔ TOUS QUOTAS ÉPUISÉS")
     return None
 
 def ajouter_event_vol(cal, i):
@@ -273,7 +301,6 @@ def main():
     injecter_fetes_hybrides(cal)
 
     # 2. DATES (FENÊTRE GLISSANTE CONTINUE)
-    # On scanne les 55 prochains jours en continu pour maximiser les 3 clés
     dates = get_sliding_window_dates(55)
     
     print(f"💳 Budget API : 3 clés disponibles (~112 req/semaine)")
@@ -282,15 +309,14 @@ def main():
     # 3. SCANS
     print(f"\n🔎 Scan ALLER ({len(dates)} dates)")
     for d in dates:
-        current_key = key_mgr.get_key()
-        res = scanner_vol(d, current_key, "PAR", "DJE", "aller")
+        # On passe le manager complet pour gérer les retries en interne
+        res = scanner_vol(d, key_mgr, "PAR", "DJE", "aller")
         if res: ajouter_event_vol(cal, res)
         time.sleep(1.1)
 
     print(f"\n🔎 Scan RETOUR ({len(dates)} dates)")
     for d in dates:
-        current_key = key_mgr.get_key()
-        res = scanner_vol(d, current_key, "DJE", "PAR", "retour")
+        res = scanner_vol(d, key_mgr, "DJE", "PAR", "retour")
         if res: ajouter_event_vol(cal, res)
         time.sleep(1.1)
 
