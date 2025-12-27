@@ -16,11 +16,14 @@ except ImportError:
 
 CALENDAR_NAME = "🌴 Djerba (Vols & Culture & Ramadan) ✈️"
 ICS_RELIGIEUX_URL = "https://ics.calendarlabs.com/52/f96c26bf/Islam_Holidays.ics"
-ICS_SCOLAIRE_URL = "https://fr.ftp.opendatasoft.com/openscol/fr-en-calendrier-scolaire/Zone-C.ics"
 
-# 🔑 CLÉS API (Séparées pour doubler le quota : 150 Aller / 150 Retour)
-API_KEY_ALLER = "123effddd8msh05c6f2f55fb8930p11d1bdjsn4d9ffc97f316"
-API_KEY_RETOUR = "b6ba120eb3msh49de9408f37f2bcp1b8213jsn6d8b87810c16"
+# 🔑 LISTE DES CLÉS API (Rotation automatique)
+# Ordre : Nouvelle clé en premier pour l'utiliser en priorité
+API_KEYS = [
+    "e8ce1ef667msh8e6f813e2b72a85p1bf0f1jsncaac0dab437a", 
+    "123effddd8msh05c6f2f55fb8930p11d1bdjsn4d9ffc97f316",
+    "b6ba120eb3msh49de9408f37f2bcp1b8213jsn6d8b87810c16"
+]
 
 HOST = "google-flights2.p.rapidapi.com"
 URL = f"https://{HOST}/api/v1/searchFlights"
@@ -65,7 +68,6 @@ def injecter_fetes_hybrides(cal):
     try:
         r = requests.get(ICS_RELIGIEUX_URL)
         external_cal = Calendar(r.text)
-        count = 0
         
         for event in external_cal.events:
             evt_date = event.begin.date()
@@ -74,7 +76,6 @@ def injecter_fetes_hybrides(cal):
             
             # 1. RAMADAN (PÉRIODE + NUITS IMPAIRES)
             if "ramadan" in name and "end" not in name:
-                # La période globale
                 e = Event()
                 e.name = "🌙 Mois de Ramadan"
                 e.begin = evt_date
@@ -84,7 +85,7 @@ def injecter_fetes_hybrides(cal):
                 e.uid = f"ramadan-{evt_date}@allofly"
                 cal.events.add(e)
                 
-                # Les 5 nuits impaires (Calculées)
+                # Les 5 nuits impaires
                 nuits = [21, 23, 25, 27, 29]
                 for n in nuits:
                     d_nuit = evt_date + timedelta(days=n-1)
@@ -95,21 +96,16 @@ def injecter_fetes_hybrides(cal):
                     enuit.description = "Une des nuits impaires sacrées (Nuit du Destin)."
                     enuit.uid = f"laylat-{n}-{evt_date}@allofly"
                     cal.events.add(enuit)
-                count += 1
 
             # 2. AUTRES FÊTES RELIGIEUSES
             elif "fitr" in name or "end of ramadan" in name:
                 ajouter_event_simple(cal, evt_date, "🍪 Aïd el-Fitr", descs["fitr"])
-                count += 1
             elif "adha" in name or "kebir" in name:
                 ajouter_event_simple(cal, evt_date, "🐑 Aïd el-Kebir", descs["kebir"])
-                count += 1
             elif "mawlid" in name or "prophet" in name:
                 ajouter_event_simple(cal, evt_date, "🥣 Le Mouled", descs["mouled"])
-                count += 1
             elif "ashura" in name:
                 ajouter_event_simple(cal, evt_date, "☪️ Achoura", descs["ashura"])
-                count += 1
         print(f"✅ OK")
 
     except Exception as e:
@@ -150,32 +146,30 @@ def ajouter_event_simple(cal, date_obj, titre, desc):
 # 3. LOGIQUE VOLS
 # ==========================================
 
-def get_target_dates_vacances():
-    """Zone C + extensions"""
-    print(f"🎓 Analyse vacances Zone C...", end=" ")
-    dates_cibles = set()
-    today = datetime.now().date()
-    
-    try:
-        r = requests.get(ICS_SCOLAIRE_URL)
-        r.encoding = 'utf-8'
-        c = Calendar(r.text)
-        for e in c.events:
-            if e.end.date() >= today:
-                # Vacances +/- 7 jours
-                start = e.begin.date() - timedelta(days=7)
-                end = e.end.date() + timedelta(days=7)
-                curr = start
-                while curr <= end:
-                    if curr >= today: dates_cibles.add(curr.strftime("%Y-%m-%d"))
-                    curr += timedelta(days=1)
+class KeyManager:
+    """Gère la rotation des clés API"""
+    def __init__(self, keys):
+        self.keys = keys
+        self.index = 0
         
-        final = sorted(list(dates_cibles))
-        # Note : On ne coupe pas ici, on coupe dans le main pour avoir le log
-        print(f"✅ {len(final)} jours potentiels trouvés.")
-        return final
-    except:
-        return [datetime.now().strftime("%Y-%m-%d")]
+    def get_key(self):
+        k = self.keys[self.index % len(self.keys)]
+        self.index += 1
+        return k
+
+def get_sliding_window_dates(days_count=55):
+    """Génère les X prochains jours à partir de demain"""
+    print(f"📅 Génération de la fenêtre glissante ({days_count} jours)...", end=" ")
+    dates = []
+    today = datetime.now()
+    current = today + timedelta(days=1)
+    
+    for _ in range(days_count):
+        dates.append(current.strftime("%Y-%m-%d"))
+        current += timedelta(days=1)
+        
+    print(f"✅ Du {dates[0]} au {dates[-1]}")
+    return dates
 
 def scanner_vol(date, api_key, depart, arrivee, sens):
     headers = {"x-rapidapi-key": api_key, "x-rapidapi-host": HOST}
@@ -186,7 +180,6 @@ def scanner_vol(date, api_key, depart, arrivee, sens):
         prefix = "🛫" if sens == "aller" else "🔙"
         print(f"{prefix} {date}...", end=" ", flush=True)
         
-        # --- CORRECTION ICI : Timeout augmenté à 45s ---
         r = requests.get(URL, headers=headers, params=q, timeout=45)
         
         if r.status_code == 200:
@@ -207,16 +200,16 @@ def scanner_vol(date, api_key, depart, arrivee, sens):
                 if not segs: continue
                 cie = segs[0].get('airline', 'Inconnue')
                 
-                # Calcul Prix Soute
-                p_full = p + 50
-                if "TRANSAVIA" in cie.upper(): p_full = p + 105
-                elif "NOUVELAIR" in cie.upper(): p_full = p + 40
-                elif "TUNISAIR" in cie.upper(): p_full = p + 36
+                # Calcul Prix Soute (Réalité du marché)
+                p_full = p + 50 # Défaut
+                if "TRANSAVIA" in cie.upper(): p_full = p + 105 # +48 cabine + 57 soute
+                elif "NOUVELAIR" in cie.upper(): p_full = p + 40 # +40 soute
+                elif "TUNISAIR" in cie.upper(): p_full = p + 36 # +36 soute
                 
                 candidats.append({"vol": vol, "p": p, "p_full": p_full, "cie": cie})
             
             if not candidats: return None
-            # On prend le moins cher bagage inclus
+            # On prend le moins cher (critère : prix avec valise pour ne pas se faire avoir)
             best = min(candidats, key=lambda x: x['p_full'])
             
             print(f"✅ {best['cie']} ({best['p_full']}€)")
@@ -273,31 +266,31 @@ def main():
     print(f"🚀 {CALENDAR_NAME}")
     print("="*60)
 
+    # Init rotation clés
+    key_mgr = KeyManager(API_KEYS)
+
     # 1. CULTURE & RELIGION
     injecter_fetes_hybrides(cal)
 
-    # 2. DATES (AVEC SÉCURITÉ QUOTA)
-    raw_dates = get_target_dates_vacances()
+    # 2. DATES (FENÊTRE GLISSANTE CONTINUE)
+    # On scanne les 55 prochains jours en continu pour maximiser les 3 clés
+    dates = get_sliding_window_dates(55)
     
-    # --- LA PROTECTION EST ICI ---
-    # On garde seulement les 35 premières dates
-    # 35 * 4 lundis = 140 requêtes (Quota API = 150)
-    dates = raw_dates[:35]
-    
-    if len(raw_dates) > 35:
-        print(f"\n⚠️ ATTENTION: {len(raw_dates)} dates trouvées.")
-        print(f"✂️ SÉCURITÉ ACTIVÉE : On scanne uniquement les 35 prochaines pour protéger le quota API.")
+    print(f"💳 Budget API : 3 clés disponibles (~112 req/semaine)")
+    print(f"🎯 Objectif : {len(dates)} jours x 2 sens = {len(dates)*2} requêtes")
     
     # 3. SCANS
     print(f"\n🔎 Scan ALLER ({len(dates)} dates)")
     for d in dates:
-        res = scanner_vol(d, API_KEY_ALLER, "PAR", "DJE", "aller")
+        current_key = key_mgr.get_key()
+        res = scanner_vol(d, current_key, "PAR", "DJE", "aller")
         if res: ajouter_event_vol(cal, res)
         time.sleep(1.1)
 
     print(f"\n🔎 Scan RETOUR ({len(dates)} dates)")
     for d in dates:
-        res = scanner_vol(d, API_KEY_RETOUR, "DJE", "PAR", "retour")
+        current_key = key_mgr.get_key()
+        res = scanner_vol(d, current_key, "DJE", "PAR", "retour")
         if res: ajouter_event_vol(cal, res)
         time.sleep(1.1)
 
